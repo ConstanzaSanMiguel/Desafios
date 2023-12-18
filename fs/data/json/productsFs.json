@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Our Twenty Four - WINNER",
+    "photo": "https://firebasestorage.googleapis.com/v0/b/vibe-kpop.appspot.com/o/3.jpg?alt=media&token=cf50a3a8-3f81-4d45-aa6b-21c1db421412",
+    "price": 24,
+    "stock": 35
+  },
+  {
+    "id": 2,
+    "title": "130 MOOD : TRBL - DEAN",
+    "photo": "https://firebasestorage.googleapis.com/v0/b/vibe-kpop.appspot.com/o/11.jpg?alt=media&token=5fd5068b-999f-46bf-8a38-115d5fce1de9",
+    "price": 21,
+    "stock": 25
+  },
+  {
+    "id": 3,
+    "title": "Love&Letter - SEVENTEEN",
+    "photo": "https://firebasestorage.googleapis.com/v0/b/vibe-kpop.appspot.com/o/1.jpg?alt=media&token=642208c0-05c4-4c78-b106-f62109203be6",
+    "price": 22,
+    "stock": 50
+  }
+]
