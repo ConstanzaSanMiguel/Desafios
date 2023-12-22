@@ -1,3 +1,5 @@
+import crypto from "crypto"
+
 class ProductManager {
     static #products = [];
 
@@ -8,7 +10,7 @@ class ProductManager {
         if (missing.length > 0) {
             console.log(`Error. Please add the following field: ${missing.join(" ")}`);
         } else {
-            const id = ProductManager.#products.length > 0 ? ProductManager.#products[ProductManager.#products.length - 1].id + 1 : 1;
+            const id = crypto.randomBytes(12).toString("hex")
             const product = {
                 id,
                 title: data.title,
@@ -20,10 +22,45 @@ class ProductManager {
         }
     }
     read() {
-        return ProductManager.#products;
+        try {
+            if (ProductManager.#products.length === 0) {
+                throw new Error("There are not products!");
+            } else {
+                return ProductManager.#products;
+            }
+        } catch (error) {
+            console.log(error.message);
+            return error.message;
+        }
     }
     readOne(id) {
-        return ProductManager.#products.find((each) => each.id === id);
+        try {
+            const searchId = ProductManager.#products.find((each) => each.id === id);
+            if (!searchId) {
+                throw new Error("There are no products with id " + id);
+            } else {
+                console.log("read " + searchId);
+                return searchId;
+            }
+        } catch (error) {
+            console.log(error.message);
+            return error.message;
+        }
+    }
+    destroy(id) {
+        try {
+            let destroyIndex = ProductManager.#products.findIndex((each) => each.id === id);
+            if (destroyIndex === -1) {
+                throw new Error("Product with id '" + id + "' not found");
+            } else {
+                ProductManager.#products.splice(destroyIndex, 1);
+                console.log("Deleted product with id: " + id);
+                return id;
+            }
+        } catch (error) {
+            console.log(error.message);
+            return error.message;
+        }
     }
 }
 
@@ -54,4 +91,5 @@ product.create({
 })
 
 console.log(product.read());
-console.log(product.readOne(2));
+console.log(product.readOne("7338df4c3a0c853bf0beaedf"));
+console.log(product.destroy(""))
