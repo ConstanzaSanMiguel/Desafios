@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    cursor: default;
+    box-sizing: content-box;
+}
+
+body {
+    font-family: "Barlow", sans-serif;
+    size: 100%;
+}
+
+.logo {
+    height: 100px;
+}
+
+.hover{
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    background-color: #af8eac;
+    letter-spacing: 3px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-shadow: #eccce9 0 1px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    margin: 0 2rem;
+    justify-content: space-around;
+    padding: 10px;
+    gap: 2rem;
+    list-style: none;
+}
+
+.navbar a,
+.menu a {
+    color: #333;
+    text-decoration-line: none;
+}
+
+.navbar a:hover,
+.menu a:hover {
+    cursor: pointer;
+}
+
+
+.index-title {
+    text-align: center;
+    margin: 5rem 0;
+    color: #333;
+    text-shadow: #af8eac 2px 2px;
+}
+
+.index-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem;
+    column-gap: 0px;
+    padding: 0 10rem;
+}
+
+.index-cards-details {
+    padding: 10px;
+    border: 3px black;
+    text-align: center;
+}
+
+.index-cards-details img {
+    height: 100px;
+}
+
+.index-cards-details h4 {
+    color: green;
+}
+
+.main-products {
+    background-color: black;
+    padding: 1rem;
+}
+
+.products h5 {
+    color: #4a3449;
+}
+
+.buttons {
+    margin-bottom: 3rem;
+}
+
+.button {
+    background-color: #4a3449;
+    border: none;
+}
+
+.button:hover{
+    background-color: #7d5a7b;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #333;
+    font-size: 11px;
+    color: #af8eac;
+    padding: 1.5rem;
+}
+
+.footer li {
+    list-style-type: none;
+}
+
+.footerLink:hover {
+    cursor: pointer;
+}

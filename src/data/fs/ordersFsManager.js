@@ -123,5 +123,5 @@ class OrdersManager {
     }
 }
 
-const orders = new OrdersManager('./server/src/data/fs/files/ordersFs.json');
+const orders = new OrdersManager('./src/data/fs/files/ordersFs.json');
 export default orders
