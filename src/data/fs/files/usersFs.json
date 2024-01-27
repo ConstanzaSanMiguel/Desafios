@@ -64,5 +64,23 @@
     "name": "Baram",
     "photo": "notengofotoenlacompu.com",
     "email": "Wind@gmail.com"
+  },
+  {
+    "id": "a4f731d4cb681e18721ed31e",
+    "name": "sojunghae",
+    "photo": "https://image.genie.co.kr/Y/IMAGE/IMG_ALBUM/082/020/596/82020596_1619761928879_1_600x600.JPG",
+    "email": "precious@gmail.com"
+  },
+  {
+    "id": "6452cb162d36bfb070b1f861",
+    "name": "sesang",
+    "photo": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2022/04/earth/24035530-2-eng-GB/Earth_pillars.jpg",
+    "email": "theearth@gmail.com"
+  },
+  {
+    "id": "235c00a8cccd288545d987b8",
+    "name": "sukima",
+    "photo": "https://i.scdn.co/image/ab67616d0000b273d916a5c42be3f96d31ff505c",
+    "email": "sukimaswitch@gmail.com"
   }
 ]

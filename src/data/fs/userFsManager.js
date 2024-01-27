@@ -109,5 +109,5 @@ class UserManager {
     }
 }
 
-const users = new UserManager('./server/src/data/fs/files/usersFs.json');
+const users = new UserManager('./src/data/fs/files/usersFs.json');
 export default users

@@ -1,0 +1,44 @@
+<main class="index">
+    <h1 class="index-title">Welcome to VIBE~!</h1>
+
+    <main class="flex-grow-1 d-flex flex-column align-items-center p-3 my-2 w-100">
+        <div class="flex-grow-1 d-flex flex-wrap justify-content-evenly align-items-center">
+            {{#each products}}
+            <div class="products card m-2" style="width: 250px;">
+                <img src="{{this.photo}}" style="height: 250px;" alt="{{this.title}} image" />
+                <h5 class="card-title text-center fs-6 m-3">{{this.title}}</h5>
+                {{#if description}}
+                <p> {{this.description}} </p>
+                {{/if}}
+            </div>
+            {{/each}}
+        </div>
+    </main>
+
+    <div class="index-cards">
+        <div class="index-cards-details">
+            <img src="https://www.shutterstock.com/image-vector/check-mark-icon-symbols-vector-600nw-1906113508.jpg"
+                alt="tick">
+            <h4>100% AUTHENTIC</h4>
+            <p>KPOP MERCH only sells official products.</p>
+        </div>
+        <div class="index-cards-details">
+            <img src="https://comercialadvance.com/wp-content/uploads/2020/10/trasporteydistribucion.png"
+                alt="shipping">
+            <h4>SAFE & FAST SHIPPING</h4>
+            <p>Fast shipping in safe packaging and optimal ways.</p>
+        </div>
+        <div class="index-cards-details">
+            <img src="https://cdn-icons-png.flaticon.com/512/8780/8780457.png" alt="headphones">
+            <h4>CUSTOMER SERVICE</h4>
+            <p>Our Kpop master will respond quickly.</p>
+        </div>
+        <div class="index-cards-details">
+            <img src="https://img.freepik.com/vector-premium/auricular-telefono-burbuja-discurso-icono-messenger-aislado-fondo-ilustracion-vectorial_230920-911.jpg?size=338&ext=jpg&ga=GA1.1.2116175301.1700697600&semt=ais"
+                alt="phone">
+            <h4>CONTACT US</h4>
+            <p>We support group purchases, review product requests, etc.</p>
+        </div>
+    </div>
+
+</main>
