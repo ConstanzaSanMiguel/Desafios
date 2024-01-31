@@ -107,6 +107,21 @@ class UserManager {
         console.log("Updated user with id: " + id)
         return updatedUser
     }
+    readByEmail(email) {
+        try {
+            const searchEmail = UserManager.#users.find((each) => each.email === email)
+            if (!searchEmail) {
+                const error = new Error("There are no users with the email" + email)
+                error.statusCode = 400
+                throw error
+            } else {
+                console.log("read " + searchEmail)
+                return searchEmail
+            }
+        } catch (error) {
+            throw error
+        }
+    }
 }
 
 const users = new UserManager('./src/data/fs/files/usersFs.json');

@@ -19,3 +19,5 @@ socket.on("products", (data) => {
     document.querySelector("#products").innerHTML = template
 })
 
+socket.on("new product", data)
+

@@ -2,6 +2,8 @@ import { Router } from "express"
 
 import productsRouter from "../api/products.router.api.js"
 import products from "../../data/fs/productFsManager.js"
+//import { products } from "../../data/mongo/manager.mongo.js"
+
 
 const viewsRouter = Router()
 
@@ -41,4 +43,4 @@ viewsRouter.get("/register", (req,res,next)=>{
 })
 
 viewsRouter.use("/products", productsRouter)
-export default viewsRouter;
+export default viewsRouter
