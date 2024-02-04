@@ -93,6 +93,20 @@ class UserManager {
             return error.message
         }
     }
+    readByEmail(email) {
+        try {
+            const searchEmail = UserManager.#users.find((each) => each.email === parseInt(email))
+            if (!searchEmail) {
+                throw new Error("There are no users with the email" + email)
+            } else {
+                console.log("read " + searchEmail)
+                return searchEmail
+            }
+        } catch (error) {
+            console.log(error.message)
+            return error.message
+        }
+    }
 }
 
 const user = new UserManager();

@@ -55,7 +55,7 @@ class OrdersManager {
             throw error
         }
     }
-    readByUser(uid) {
+    readOne(uid) {
         try {
             const user = users.readOne(uid)
             if (typeof user === "string") {

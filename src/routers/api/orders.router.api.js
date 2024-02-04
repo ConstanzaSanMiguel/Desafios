@@ -1,10 +1,11 @@
 import { Router } from "express"
-import orders from "../../data/fs/ordersFsManager.js"
-import propsOrders from "../../middlewares/propsOrders.js"
+//import orders from "../../data/fs/ordersFsManager.js"
+import { orders } from "../../data/mongo/manager.mongo.js"
+//import propsOrders from "../../middlewares/propsOrders.js"
 
 const ordersRouter = Router()
 
-ordersRouter.post('/', propsOrders, async (req, res, next) => {
+ordersRouter.post('/', /*propsOrders,*/ async (req, res, next) => {
     try {
         const data = req.body
         const response = await orders.create(data)
@@ -21,7 +22,7 @@ ordersRouter.post('/', propsOrders, async (req, res, next) => {
 
 ordersRouter.get('/', async (req, res, next) => {
     try {
-        const ordersArray = await orders.read()
+        const ordersArray = await orders.read({})
         if (Array.isArray(ordersArray)) {
             return res.json({
                 statusCode: 200,
@@ -35,9 +36,10 @@ ordersRouter.get('/', async (req, res, next) => {
 
 ordersRouter.get("/:uid", async (req, res, next) => {
     const { uid } = req.params
+    const filter = {uid : uid}
     try {
-        const userOrders = orders.readByUser(uid)
-        res.json(userOrders)
+        const one = await orders.read({filter})
+        res.json(one)
     } catch (error) {
         return next(error)
     }
@@ -62,9 +64,9 @@ ordersRouter.put('/:oid', async (req, res, next) => {
     try {
         const { oid } = req.params
         const data = req.body
-        const { quantity, state } = data
+        //const { quantity, state } = data
 
-        const response = await orders.update(oid, quantity, state)
+        const response = await orders.update(oid, /*quantity, state*/ data)
         
         if (response) {
             return res.json({

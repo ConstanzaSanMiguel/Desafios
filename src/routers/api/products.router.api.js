@@ -1,19 +1,19 @@
-import { Router } from "express";
-import products from "../../data/fs/productFsManager.js";
-import propsProducts from "../../middlewares/propsProducts.js";
+import { Router } from "express"
+//import products from "../../data/fs/productFsManager.js"
+import { products } from "../../data/mongo/manager.mongo.js"
+//import propsProducts from "../../middlewares/propsProducts.js"
 
 const productsRouter = Router()
 
-productsRouter.post('/', propsProducts, async (req, res, next) => {
+productsRouter.post('/', /*propsProducts,*/ async (req, res, next) => {
     try {
         const data = req.body
         const response = await products.create(data)
         if (response) {
-            
             return res.json({
                 statusCode: 201,
                 response: `Product added successfully.`,
-            });
+            })
         }
     } catch (error) {
         return next(error)
@@ -22,12 +22,12 @@ productsRouter.post('/', propsProducts, async (req, res, next) => {
 
 productsRouter.get('/', async (req, res, next) => {
     try {
-        const productArray = await products.read();
+        const productArray = await products.read({})
         if (Array.isArray(productArray)) {
             return res.json({
                 statusCode: 200,
                 response: productArray,
-            });
+            })
         } 
     } catch (error) {
         return next(error)
@@ -37,11 +37,11 @@ productsRouter.get('/', async (req, res, next) => {
 productsRouter.get('/:pid', async (req, res, next) => {
     try {
         const { pid } = req.params
-        const object = await products.readOne(pid);
-        if (object) {
+        const one = await products.readOne(pid)
+        if (one) {
             return res.json({
                 statusCode: 200,
-                response: object,
+                response: one,
             })
         }
     } catch (error) {
