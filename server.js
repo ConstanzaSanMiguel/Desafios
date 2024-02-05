@@ -16,7 +16,7 @@ import pathHandler from "./src/middlewares/pathHandler.js"
 import __dirname from "./utils.js"
 
 const server = express()
-const PORT = 8080
+const PORT = process.env.PORT || 8080
 const ready = () => { 
     console.log("Server ready on port " + PORT) 
     dbConnection()

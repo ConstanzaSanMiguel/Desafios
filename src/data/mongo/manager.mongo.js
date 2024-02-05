@@ -1,3 +1,4 @@
+import { Types } from "mongoose"
 import User from "./models/user.model.js"
 import Product from "./models/product.model.js"
 import Order from "./models/order.model.js"
@@ -17,23 +18,17 @@ class MongoManager {
         }
     }
 
-    async read(obj) {
+    async read({ filter, sortAndPaginate }) {
         try {
-            let { filter, sort } = obj
-            if (!sort) {
-                if (this.model.modelName === 'users') {
-                    sort = { name: 1 }
-                } else if (this.model.modelName === 'products') {
-                    sort = { title: 1 }
-                }
-            }
-            if (!filter) filter = {}
-            const all = await this.model.find(filter).sort(sort)
-            if (all.length === 0) {
+            const all = await this.model
+                .paginate(filter, sortAndPaginate)
+
+            if (all.docs.length === 0) {
                 const error = new Error("Nothing found!")
                 error.statusCode = 404
                 throw error
             }
+
             return all
         } catch (error) {
             throw error
@@ -76,6 +71,40 @@ class MongoManager {
             const one = await this.model.findOne({ email: email })
             notFoundOne(one)
             return one
+        } catch (error) {
+            throw error
+        }
+    }
+
+    async report(uid) {
+        try {
+            const report = await this.model.aggregate([
+                { $match: { uid: new Types.ObjectId(uid) } },
+                {
+                    $lookup: {
+                        from: "products",
+                        foreignField: "_id",
+                        localField: "pid",
+                        as: "product_id"
+                    }
+                },
+                {
+                    $replaceRoot: {
+                        newRoot: { $mergeObjects: [{ $arrayElemAt: ["$product_id", 0] }, "$$ROOT"] }
+                    }
+                },
+                { $set: { subtotal: { $multiply: ["$price", "$quantity"] } } },
+                { $group: { _id: "$uid", total: { $sum: "$subtotal" } } },
+                { $project: { _id: 0, user_id: "$_id", total: "$total", date: new Date() } }
+                //{ $merge: { into: "total" } },
+            ])
+            if (report.length === 0) {
+                const error = new Error("User has no orders")
+                error.statusCode = 404
+                throw error
+            } else {
+                return report
+            }
         } catch (error) {
             throw error
         }

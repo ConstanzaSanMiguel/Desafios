@@ -28,16 +28,19 @@ class ProductManager {
             return error.message
         }
     }
-    read() {
+    async read({ filter, sortAndPaginate }) {
         try {
             if (ProductManager.#products.length === 0) {
-                throw new Error("There are not products!")
+                const error = new Error("There are not products!")
+                error.statusCode = 400
+                throw error
             } else {
-                return ProductManager.#products
+                const all = await ProductManager.#products
+                    .paginate(filter, sortAndPaginate)
+                return all
             }
         } catch (error) {
-            console.log(error.message)
-            return error.message
+            throw error
         }
     }
     readOne(id) {

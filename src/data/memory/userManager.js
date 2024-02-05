@@ -27,15 +27,16 @@ class UserManager {
             return error.message
         }
     }
-    read() {
+    async read({ filter, sortAndPaginate }) {
         try {
             if (UserManager.#users.length === 0) {
                 throw new Error("There are no users!")
             } else {
-                return UserManager.#users
+                const all = await UserManager.#users
+                    .paginate(filter, sortAndPaginate)
+                return all
             }
         } catch (error) {
-            console.log(error.message)
             return error.message
         }
     }

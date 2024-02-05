@@ -123,3 +123,36 @@ body {
 .footerLink:hover {
     cursor: pointer;
 }
+
+.TOP {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.TOP-top {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    color: #bfb6b6;
+    background-color: #332f2f;
+    margin: 5px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    transition: background-color 0.3s;
+}
+
+.TOP-top i {
+    font-size: 15px;
+}
+
+.TOP-top:hover {
+    background-color: #af8eac;
+    color: #332f2f;
+}
+
+.TOP-top-font {
+    align-items: center;
+}

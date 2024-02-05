@@ -42,14 +42,16 @@ class OrdersManager {
             throw error
         }
     }
-    read() {
+    async read({ filter, sortAndPaginate }) {
         try {
             if (OrdersManager.#orders.length === 0) {
                 const error = new Error("There are no orders!")
                 error.statusCode = 400
                 throw error
             } else {
-                return OrdersManager.#orders
+                const all = await OrdersManager.#orders
+                    .paginate(filter, sortAndPaginate)
+                return all
             }
         } catch (error) {
             throw error
