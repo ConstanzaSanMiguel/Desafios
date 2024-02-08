@@ -22,11 +22,21 @@ usersRouter.post('/', /*propsUsers,*/ async (req, res, next) => {
 
 usersRouter.get("/", async (req, res, next) => {
     try {
-        const userArray = await users.read({})
-        if (Array.isArray(userArray)) {
+        const sortAndPaginate = {
+            limit: req.query.limit || 10,
+            page: req.query.page || 1,
+            sort: {name : 1}
+        }
+        const filter = {}
+        if(req.query.name) {
+            filter.name = new RegExp(`^${req.query.name}$`, 'i')
+        }
+
+        const all = await users.read({ filter, sortAndPaginate })
+        if (all) {
             return res.json({
                 statusCode: 200,
-                response: userArray,
+                response: all,
             })
         } else {
             return res.json({
@@ -82,7 +92,7 @@ usersRouter.delete('/:uid', async (req, res, next) => {
                 statusCode: 200,
                 response: `Deleted product with id ${uid} successfully.`
             })
-        } 
+        }
     } catch (error) {
         return next(error)
     }

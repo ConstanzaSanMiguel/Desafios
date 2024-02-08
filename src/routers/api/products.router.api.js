@@ -22,13 +22,28 @@ productsRouter.post('/', /*propsProducts,*/ async (req, res, next) => {
 
 productsRouter.get('/', async (req, res, next) => {
     try {
-        const productArray = await products.read({})
-        if (Array.isArray(productArray)) {
+        const sortAndPaginate = {
+            limit: req.query.limit || 10,
+            page: req.query.page || 1,
+            sort: { title: 1 }
+        }
+        const filter = {}
+        if (req.query.title) {
+            filter.title = new RegExp(req.query.title.trim(),'i')
+        }
+
+        const all = await products.read({ filter, sortAndPaginate })
+        if (all) {
             return res.json({
                 statusCode: 200,
-                response: productArray,
+                response: all,
             })
-        } 
+        } else {
+            return res.json({
+                statusCode: 404,
+                response: "not found!",
+            })
+        }
     } catch (error) {
         return next(error)
     }
@@ -70,7 +85,7 @@ productsRouter.put('/:pid', async (req, res, next) => {
     } catch (error) {
         return next(error)
     }
-});
+})
 
 productsRouter.delete('/:pid', async (req, res, next) => {
     try {
@@ -82,10 +97,10 @@ productsRouter.delete('/:pid', async (req, res, next) => {
                 statusCode: 200,
                 response: `Deleted product with id ${pid} successfully.`,
             })
-        } 
+        }
     } catch (error) {
         return next(error)
     }
-});
+})
 
 export default productsRouter

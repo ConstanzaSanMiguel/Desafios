@@ -39,14 +39,16 @@ class ProductManager {
             throw error
         }
     }
-    read() {
+    async read({ filter, sortAndPaginate }) {
         try {
             if (ProductManager.#products.length === 0) {
                 const error = new Error("There are not products!")
                 error.statusCode = 400
                 throw error
             } else {
-                return ProductManager.#products;
+                const all = await ProductManager.#products
+                    .paginate(filter, sortAndPaginate)
+                return all
             }
         } catch (error) {
             throw error
@@ -88,25 +90,25 @@ class ProductManager {
         }
     }
     update(id, data) {
-            const productIndex = ProductManager.#products.findIndex((each) => each.id === id)
+        const productIndex = ProductManager.#products.findIndex((each) => each.id === id)
 
-            if (productIndex === -1) {
-                const error = new Error("Product " + id + " not found.")
-                error.statusCode = 400
-                throw error
-            }
-            const updatedProduct = {
-                ...ProductManager.#products[productIndex],
-                ...data,
-                id: id,
-            };
+        if (productIndex === -1) {
+            const error = new Error("Product " + id + " not found.")
+            error.statusCode = 400
+            throw error
+        }
+        const updatedProduct = {
+            ...ProductManager.#products[productIndex],
+            ...data,
+            id: id,
+        };
 
-            ProductManager.#products[productIndex] = updatedProduct
+        ProductManager.#products[productIndex] = updatedProduct
 
-            const jsonData = JSON.stringify(ProductManager.#products, null, 2)
-            fs.promises.writeFile(this.path, jsonData)
+        const jsonData = JSON.stringify(ProductManager.#products, null, 2)
+        fs.promises.writeFile(this.path, jsonData)
 
-            return updatedProduct
+        return updatedProduct
     }
 }
 
