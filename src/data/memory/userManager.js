@@ -58,10 +58,10 @@ class UserManager {
         try {
             let destroyIndex = UserManager.#users.findIndex((each) => each.id === parseInt(id))
             if (destroyIndex === -1) {
-                throw new Error("Product with id '" + id + "' not found")
+                throw new Error("User with id '" + id + "' not found")
             } else {
                 UserManager.#users.splice(destroyIndex, 1)
-                console.log("Deleted product with id: " + id)
+                console.log("Deleted user with id: " + id)
                 return id
             }
         } catch (error) {

@@ -1,11 +1,12 @@
 import { Router } from "express"
 //import users from "../../data/fs/userFsManager.js"
 import { users } from "../../data/mongo/manager.mongo.js"
+import has8char from "../../middlewares/has8char.mid.js"
 //import propsUsers from "../../middlewares/propsUsers.js"
 
 const usersRouter = Router()
 
-usersRouter.post('/', /*propsUsers,*/ async (req, res, next) => {
+usersRouter.post('/', /*propsUsers,*/ has8char, async (req, res, next) => {
     try {
         const data = req.body
         const response = await users.create(data)
@@ -90,7 +91,7 @@ usersRouter.delete('/:uid', async (req, res, next) => {
         if (response) {
             return res.json({
                 statusCode: 200,
-                response: `Deleted product with id ${uid} successfully.`
+                response: `Deleted user with id ${uid} successfully.`
             })
         }
     } catch (error) {

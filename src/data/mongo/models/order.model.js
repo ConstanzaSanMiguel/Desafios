@@ -8,16 +8,16 @@ const schema = new Schema(
         pid: { type: Types.ObjectId, required: true, ref: "products" },
         quantity: { type: Number, default: 1, min: 1 },
         state: {
-            type: String, default: "Reserved",
-            enum: ["Reserved", "Paid", "Delivered"]
+            type: String, 
+            enum: ["Reserved", "Paid", "Delivered"],
+            default: "Reserved"
         }
     },
     { timestamps: true }
 )
 
-//agregar -password
 schema.pre("find", function () {
-    this.populate("uid", "-createdAt -updatedAt -__v -photo");
+    this.populate("uid", "-password -createdAt -updatedAt -__v -photo");
 })
 schema.pre("find", function () {
     this.populate("pid", "title price");
