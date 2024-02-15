@@ -1,8 +1,8 @@
-//import crypto from "crypto";
-import users from "../../data/fs/userFsManager.js";
+//import crypto from "crypto"
+import users from "../../data/fs/userFsManager.js"
 
 class OrdersManager {
-    static #orders = [];
+    static #orders = []
 
     async create(data) {
         try {
@@ -18,7 +18,7 @@ class OrdersManager {
                 pid,
                 quantity,
                 state: "reserved",
-            };
+            }
 
             OrdersManager.#orders.push(order)
             return true;
@@ -65,7 +65,7 @@ class OrdersManager {
             const orderIndex = OrdersManager.#orders.findIndex((each) => each.oid === userOid)
             const existingOrder = OrdersManager.#orders[orderIndex]
             if (!existingOrder) {
-                const error = new Error("No se encontró la orden con ID " + oid)
+                const error = new Error("Order with ID " + oid + " not found")
                 error.statusCode = 400
                 throw error
             }
@@ -77,7 +77,7 @@ class OrdersManager {
 
             OrdersManager.#orders[orderIndex] = updatedOrder
 
-            console.log("Orden actualizada con ID: " + oid)
+            console.log("Order with ID " + oid + " updated")
             return updatedOrder
         } catch (error) {
             console.log(error.message)
@@ -91,7 +91,7 @@ class OrdersManager {
                 throw new Error("Order not found")
             } else {
                 OrdersManager.#orders = OrdersManager.#orders.filter((each) => each.oid !== parseInt(oid))
-                console.log("Deleted product with id: " + oid)
+                console.log("Deleted order with id: " + oid)
                 return oid
             }
         } catch (error) {

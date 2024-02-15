@@ -1,11 +1,13 @@
 import { Router } from "express"
 //import products from "../../data/fs/productFsManager.js"
 import { products } from "../../data/mongo/manager.mongo.js"
-//import propsProducts from "../../middlewares/propsProducts.js"
+import propsProducts from "../../middlewares/propsProducts.js"
+//import isStockOkUtils from "../../utils/isStockOk.utils.js"
+import isAdmin from "../../middlewares/isAdmin.js"
 
 const productsRouter = Router()
 
-productsRouter.post('/', /*propsProducts,*/ async (req, res, next) => {
+productsRouter.post('/', isAdmin, propsProducts, async (req, res, next) => {
     try {
         const data = req.body
         const response = await products.create(data)
@@ -64,7 +66,7 @@ productsRouter.get('/:pid', async (req, res, next) => {
     }
 })
 
-productsRouter.put('/:pid', async (req, res, next) => {
+productsRouter.put('/:pid', isAdmin, /*isStockOkUtils,*/ async (req, res, next) => {
     try {
         const { pid } = req.params
         const data = req.body
@@ -87,7 +89,7 @@ productsRouter.put('/:pid', async (req, res, next) => {
     }
 })
 
-productsRouter.delete('/:pid', async (req, res, next) => {
+productsRouter.delete('/:pid', isAdmin, async (req, res, next) => {
     try {
         const { pid } = req.params
         const response = await products.destroy(pid)

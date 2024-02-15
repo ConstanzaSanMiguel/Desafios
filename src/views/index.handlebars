@@ -1,6 +1,7 @@
 <main class="index">
     <h1 class="index-title">Welcome to VIBE~!</h1>
 
+    {{#if products.length}}
     <main class="flex-grow-1 d-flex flex-column align-items-center p-3 my-2 w-100">
         <div class="flex-grow-1 d-flex flex-wrap justify-content-evenly align-items-center">
             {{#each products}}
@@ -14,6 +15,9 @@
             {{/each}}
         </div>
     </main>
+    {{else}}
+    <p>No products available</p>
+    {{/if}}
 
     <div class="index-cards">
         <div class="index-cards-details">

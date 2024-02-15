@@ -2,6 +2,8 @@ import { Router } from "express"
 
 import productsRouter from "../api/products.router.api.js"
 //import products from "../../data/fs/productFsManager.js"
+import sessionsRouter from "../api/sessions.router.api.js"
+import ordersRouter from "../api/orders.router.api.js"
 import { products, orders, users } from "../../data/mongo/manager.mongo.js"
 
 const viewsRouter = Router()
@@ -30,7 +32,7 @@ viewsRouter.get("/real", async (req, res, next) => {
     }
 })
 
-viewsRouter.get("/form", (req, res, next) => {
+viewsRouter.get("/products/form", (req, res, next) => {
     try {
         return res.render("form", {})
     } catch (error) {
@@ -38,7 +40,7 @@ viewsRouter.get("/form", (req, res, next) => {
     }
 })
 
-viewsRouter.get("/register", (req, res, next) => {
+viewsRouter.get("/auth/register", (req, res, next) => {
     try {
         return res.render("register", {})
     } catch (error) {
@@ -46,5 +48,17 @@ viewsRouter.get("/register", (req, res, next) => {
     }
 })
 
+viewsRouter.get("/auth/login", (req, res, next) => {
+    try {
+        return res.render("login", {})
+    } catch (error) {
+        next(error)
+    }
+})
+
 viewsRouter.use("/products", productsRouter)
+viewsRouter.use("/form", sessionsRouter)
+viewsRouter.use("/orders", ordersRouter)
+viewsRouter.use("/auth", sessionsRouter)
+
 export default viewsRouter

@@ -1,0 +1,20 @@
+<main class="contact">
+    <h1 class="mt-5 mb-2 text-center text-decoration-underline">Log in</h1>
+    <form>
+        <div class="container">
+            <fieldset class="mb-3 text-left">
+                <label for="email" class="form-label mb-0">Email</label><br>
+                <input type="email" class="form-control" id="email" required placeholder="Please type your email">
+            </fieldset>
+            <fieldset class="mb-3 text-left">
+                <label for="password" class="form-label mb-0">Password</label><br>
+                <input type="password" class="form-control" id="password" required placeholder="Please type your password">
+            </fieldset>
+            <div class="btn-group d-grid gap-2 col-6 mx-auto buttons" role="group" aria-label="Basic example">
+                <button type="submit" class="btn btn-primary btn-sm button" id="userLogin">Log in</button>
+            </div>
+        </div>
+    </form>
+</main>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/login.js"></script>
