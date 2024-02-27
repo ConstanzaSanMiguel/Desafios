@@ -2,12 +2,20 @@ import { Router } from "express"
 //import orders from "../../data/fs/ordersFsManager.js"
 import { orders } from "../../data/mongo/manager.mongo.js"
 //import propsOrders from "../../middlewares/propsOrders.js"
+import passCallBack from "../../middlewares/passCallBack.js"
+import { verifyToken } from "../../utils/token.util.js"
 
 const ordersRouter = Router()
 
-ordersRouter.post('/', /*propsOrders,*/ async (req, res, next) => {
+ordersRouter.post('/', passCallBack("jwt"), /*propsOrders,*/ async (req, res, next) => {
     try {
-        const data = req.body
+        const product_id = req.body.product
+
+        const data = {
+            uid: req.user._id,
+            pid: product_id,
+        }
+
         const response = await orders.create(data)
         if (response) {
             return res.json({
@@ -22,18 +30,18 @@ ordersRouter.post('/', /*propsOrders,*/ async (req, res, next) => {
 
 ordersRouter.get('/', async (req, res, next) => {
     try {
-        const sortAndPaginate = {
+        /*const sortAndPaginate = {
             limit: req.query.limit || 10,
             page: req.query.page || 1,
             sort: { _id: 1 }
-        }
+        }*/
 
         const filter = {}
-        if (req.query._id) {
-            filter._id = req.query._id
+        if (req.query.user_id) {
+            filter.user_id = req.query.user_id
         }
 
-        const all = await orders.read({ filter, sortAndPaginate })
+        const all = await orders.read({ filter/*, sortAndPaginate*/ })
         if (all) {
             return res.json({
                 statusCode: 200,
@@ -97,7 +105,9 @@ ordersRouter.put('/:oid', async (req, res, next) => {
 
 ordersRouter.get('/total/:uid', async (req, res, next) => {
     try {
-        const { uid } = req.params
+        const data = verifyToken(req.cookies.token)
+        console.log('user', data)
+        const { uid } = data
         const report = await orders.report(uid)
         return res.json({
             statusCode: 201,

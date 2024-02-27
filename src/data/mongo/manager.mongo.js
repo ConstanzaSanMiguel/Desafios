@@ -1,8 +1,8 @@
-import { Types } from "mongoose"
 import User from "./models/user.model.js"
 import Product from "./models/product.model.js"
 import Order from "./models/order.model.js"
 import notFoundOne from "../../utils/notFoundOne.js"
+import { Types } from "mongoose"
 
 class MongoManager {
     constructor(model) {
@@ -20,15 +20,13 @@ class MongoManager {
 
     async read({ filter, sortAndPaginate }) {
         try {
-            const all = await this.model
-                .paginate(filter, sortAndPaginate)
-
+            sortAndPaginate = { ...sortAndPaginate, lean: true }
+            const all = await this.model.paginate(filter, sortAndPaginate)
             if (all.docs.length === 0) {
                 const error = new Error("Nothing found!")
                 error.statusCode = 404
                 throw error
             }
-
             return all
         } catch (error) {
             throw error
@@ -37,7 +35,7 @@ class MongoManager {
 
     async readOne(id) {
         try {
-            const one = await this.model.findById(id)
+            const one = await this.model.findById(id).lean()
             notFoundOne(one)
             return one
         } catch (error) {
@@ -47,8 +45,8 @@ class MongoManager {
 
     async update(id, data) {
         try {
-            const opt = { new: true }
-            const one = await this.model.findByIdAndUpdate(id, data, opt)
+            const options = { new: true }
+            const one = await this.model.findByIdAndUpdate(id, data, options)
             notFoundOne(one)
             return one
         } catch (error) {
@@ -69,7 +67,6 @@ class MongoManager {
     async readByEmail(email) {
         try {
             const one = await this.model.findOne({ email: email })
-            notFoundOne(one)
             return one
         } catch (error) {
             throw error
@@ -116,3 +113,4 @@ const products = new MongoManager(Product)
 const orders = new MongoManager(Order)
 
 export { users, products, orders }
+export default MongoManager

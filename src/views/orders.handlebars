@@ -1,0 +1,41 @@
+<main class="flex-grow-1 w-100 d-flex flex-column">
+    <h2 class="subtitle mt-4 mb-2 text-center productTitle">MY CART</h2>
+    {{#if message}}
+    <p class="d-flex justify-content-center align-items-center m-0 p-3">NO ORDERS YET!</p>
+    {{else}}
+    <section id="products"
+        class="d-flex flex-column justify-content-center align-items-center m-auto mt-2 mb-4 bg-light"
+        style="width: 400px;">
+        <article class="w-100 d-flex border">
+            <p style="width: 50px;" class="m-0 p-2 fw-bold"></p>
+            <p style="width: 100px;" class="d-flex justify-content-start align-items-center m-0 p-2 fw-bold">Title</p>
+            <p style="width: 20px;" class="m-0 p-2 fw-bold"></p>
+            <p style="width: 100px;" class="d-flex justify-content-start align-items-center m-0 p-2 fw-bold">Quantity</p>
+            <p style="width: 100px;" class="d-flex justify-content-end align-items-center m-0 p-2 fw-bold">Price</p>
+            <p style="width: 60px;" class="m-0 p-2 fw-bold"></p>
+        </article>
+        {{#each orders}}
+        <article class="w-100 d-flex border">
+            <img src="{{this.pid.photo}}" style="width: 80px; height: 80px" class="object-fit-cover m-0"
+                alt="{{this.pid.title}}" />
+            <p class="d-flex justify-content-center align-items-center m-0 p-2" style="width: 100px;">
+                {{this.pid.title}}
+                <br />
+            </p>
+            <p class="d-flex justify-content-center align-items-center m-0 p-2" style="width: 100px;">
+                {{this.quantity}}</p>
+            <p class="d-flex justify-content-end align-items-center m-0 p-2" style="width: 100px;">USD
+                {{this.pid.price}}</p>
+            <span class="d-flex justify-content-center align-items-center m-0 p-2" style="width: 60px;">
+                <img class="deleteButton" id="{{this._id}}"
+                    src="https://cdn.iconscout.com/icon/premium/png-256-thumb/delete-3292140-2758534.png?f=webp" />
+            </span>
+        </article>
+        {{/each}}
+        <article class="total">
+            <span id="total">My total: ... </span>
+        </article>
+    </section>
+    {{/if}}
+</main>
+<script src="/scripts/orders.js"></script>

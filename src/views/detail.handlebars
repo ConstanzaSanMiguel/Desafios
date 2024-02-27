@@ -1,0 +1,18 @@
+<main class="flex-grow-1 m-auto w-100 d-flex flex-column">
+    <section id="productDetail"
+        class="flex-grow-1 d-flex flex-column justify-content-evenly align-items-center mb-4">
+        <article class="d-flex flex-column justify-content-center align-items-center">
+            <h2 class="subtitle mt-4 mb-2 text-center productTitle">
+                {{product.title}}</h2>
+        <img src="{{product.photo}}" style="width: 50%; height: auto" id="productPhoto" class="object-fit-cover"
+            alt="{{product.title}}" />
+            <h6 class="p-2 text-center card-title"><span class="productDetails">Price</span>:
+                {{product.price}}</h5>
+            <h6 class="p-1 text-center card-title"><span class="productDetails">Stock</span>:
+                {{product.stock}}</h5>
+            <input id={{product._id}} class="addToCart addtocartButton" type="button" value="Add to cart!">
+        </article>
+    </section>
+</main>
+<script src="/scripts/addToCart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
