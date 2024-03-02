@@ -20,7 +20,7 @@ schema.pre("find", function () {
     this.populate("uid", "-password -createdAt -updatedAt -__v -photo");
 })
 schema.pre("find", function () {
-    this.populate("pid", "title price");
+    this.populate("pid", "title price photo quantity");
 })
 
 schema.plugin(mongoosePaginate)

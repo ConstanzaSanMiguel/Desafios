@@ -8,13 +8,16 @@
             </fieldset>
             <fieldset class="mb-3 text-left">
                 <label for="password" class="form-label mb-0">Password</label><br>
-                <input type="password" class="form-control" id="password" required placeholder="Please type your password">
+                <input type="password" class="form-control" id="password" required
+                    placeholder="Please type your password">
             </fieldset>
             <div class="btn-group d-grid gap-2 col-6 mx-auto buttons" role="group" aria-label="Basic example">
-                <button type="submit" class="btn btn-primary btn-sm button" id="userLogin">Log in</button>
+                <button type="button" class="btn btn-primary btn-sm button" id="userLogin">Log in</button>
+                <button type="button" class="btn btn-primary btn-sm button" id="google" >Google!</button>
             </div>
         </div>
     </form>
 </main>
-<script src="/socket.io/socket.io.js"></script>
-<script src="/login.js"></script>
+<script src="/scripts/google.js"></script>
+<script src="/scripts/login.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>

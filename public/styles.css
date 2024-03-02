@@ -13,7 +13,7 @@ body {
     height: 100px;
 }
 
-.hover{
+.hover {
     cursor: pointer;
 }
 
@@ -52,12 +52,20 @@ body {
     cursor: pointer;
 }
 
-
 .index-title {
     text-align: center;
-    margin: 5rem 0;
+    margin: 5rem 0 2rem 0;
     color: #333;
     text-shadow: #af8eac 2px 2px;
+}
+
+#signout {
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: #333 1px 1px;
+    background-color: #af8eac;
+    color: white;
+    border: 2px solid #af8eac;
 }
 
 .index-cards {
@@ -100,7 +108,7 @@ body {
     border: none;
 }
 
-.button:hover{
+.button:hover {
     background-color: #7d5a7b;
 }
 
@@ -113,7 +121,7 @@ body {
     background-color: #333;
     font-size: 11px;
     color: #af8eac;
-    padding: 1.5rem;
+    padding: 1.5rem 0;
 }
 
 .footer li {
@@ -155,4 +163,89 @@ body {
 
 .TOP-top-font {
     align-items: center;
+}
+
+#noProducts {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+#searchHolder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#search {
+    width: 35px;
+    padding: 2px;
+    transform: scaleX(-1);
+}
+
+#text {
+    width: 400px;
+    height: 20px;
+    padding: 4px;
+    text-align: left;
+    justify-content: center;
+    background-color: #7d5a7b40;
+}
+
+.detailsProducts:hover {
+    cursor: pointer;
+}
+
+#paginationButtons {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination {
+    width: 50px;
+    padding: 10px;
+    margin: 0 20px;
+}
+
+.paginationText {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.paginationText:hover {
+    cursor: pointer;
+}
+
+.productTitle {
+    text-shadow: #d5add3 2px 2px;
+}
+
+.productDetails {
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.addtocartButton {
+    padding: 8px 10px;
+    background-color: #674465;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.addtocartButton:hover {
+    background-color: #947593;
+}
+
+.deleteButton {
+    width: 78%;
+    cursor: pointer;
+}
+
+.total {
+    margin: 10px 0;
+    font-weight: 700;
 }

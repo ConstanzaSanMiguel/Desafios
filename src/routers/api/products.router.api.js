@@ -4,10 +4,11 @@ import { products } from "../../data/mongo/manager.mongo.js"
 import propsProducts from "../../middlewares/propsProducts.js"
 //import isStockOkUtils from "../../utils/isStockOk.utils.js"
 import isAdmin from "../../middlewares/isAdmin.js"
+import isAuth from "../../middlewares/isAuth.js"
 
 const productsRouter = Router()
 
-productsRouter.post('/', isAdmin, propsProducts, async (req, res, next) => {
+productsRouter.post('/', isAuth, isAdmin, propsProducts, async (req, res, next) => {
     try {
         const data = req.body
         const response = await products.create(data)
