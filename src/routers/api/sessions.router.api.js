@@ -3,6 +3,7 @@ import { users } from "../../data/mongo/manager.mongo.js"
 import isValidPass from "../../middlewares/isValidPass.mid.js"
 import has8char from "../../middlewares/has8char.mid.js"
 import passport from "../../middlewares/passport.mid.js"
+import passCallBack from "../../middlewares/passCallBack.js"
 
 const sessionsRouter = Router()
 
@@ -74,7 +75,7 @@ sessionsRouter.get(
 )
 
 //ver sesión
-sessionsRouter.post("/", async (req, res, next) => {
+sessionsRouter.post("/", passCallBack("jwt"), async (req, res, next) => {
     try {
         const user = {
             email: req.user.email,
@@ -86,7 +87,7 @@ sessionsRouter.post("/", async (req, res, next) => {
             response: user
         })
     } catch (error) {
-        return next(error);
+        return next(error)
     }
 })
 
