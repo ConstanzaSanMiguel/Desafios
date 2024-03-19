@@ -44,7 +44,7 @@ fetch("/api/sessions/", { method: "POST" })
         }
         if (res.response?.role === "user") {
             document.querySelector("#formButton").style.display = "none"
-        } else if (res.response?.role === "admin") {
-            document.querySelector("#ordersButton").style.display = "none"
-        }
+        } else if (res.response?.role == "admin") {
+                document.querySelector("#ordersButton").style.display = "none"
+            }
     })
