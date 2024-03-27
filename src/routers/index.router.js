@@ -7,9 +7,12 @@ const apiRouter = api.getRouter()
 const views = new ViewsRouter()
 const viewsRouter = views.getRouter()
 
-export default class IndexRouter extends CustomRouter {
+class IndexRouter extends CustomRouter {
     init() {
         this.router.use("/api", apiRouter)
         this.router.use('/', viewsRouter)
     }
 }
+
+const router = new IndexRouter()
+export default router.getRouter()

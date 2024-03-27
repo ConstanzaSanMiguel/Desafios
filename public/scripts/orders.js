@@ -1,7 +1,7 @@
 const selectors = document.querySelectorAll(".deleteButton")
 selectors.forEach((each) =>
     each.addEventListener("click", async (event) => {
-        console.log(event.target)
+        //console.log(event.target)
         try {
             const url = "/api/orders/" + event.target.id;
             const opts = {
@@ -12,7 +12,7 @@ selectors.forEach((each) =>
             response = await response.json()
             console.log(response)
             if (response.statusCode === 200) {
-                alert(response.message)
+                alert(response.response)
                 location.reload()
             }
         } catch (error) {
