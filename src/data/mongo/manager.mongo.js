@@ -12,7 +12,7 @@ class MongoManager {
     async create(data) {
         try {
             const one = await this.model.create(data)
-            return one._id
+            return one
         } catch (error) {
             throw error
         }
@@ -108,9 +108,4 @@ class MongoManager {
     }
 }
 
-const users = new MongoManager(User)
-const products = new MongoManager(Product)
-const orders = new MongoManager(Order)
-
-export { users, products, orders }
 export default MongoManager

@@ -1,8 +1,8 @@
-import usersService from "../services/users.services.js"
+import service from "../services/users.services.js"
 
 class UsersController {
     constructor() {
-        this.service = usersService
+        this.service = service
     }
 
     create = async (req, res, next) => {
@@ -58,7 +58,7 @@ class UsersController {
             const one = await this.service.readByEmail(email)
             if (one) {
                 return res.success200(one)
-            }
+            } else return res.error401()
         } catch (error) {
             return next(error)
         }

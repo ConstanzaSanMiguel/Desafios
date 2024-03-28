@@ -1,5 +1,8 @@
 import { Router } from "express"
-import { orders, users } from "../../data/mongo/manager.mongo.js"
+
+import dao from  "../../data/index.factory.js"
+const { orders, users } = dao
+
 import passCallBack from "../../middlewares/passCallBack.js"
 
 const ordersRouter = Router()

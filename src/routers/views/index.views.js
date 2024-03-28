@@ -1,11 +1,8 @@
 import CustomRouter from "../CustomRouter.js"
 
-/*import productsRouter from "../api/products.router.api.js"
-//import products from "../../data/fs/productFsManager.js"
-import sessionsRouter from "../api/sessions.router.api.js"
-import ordersRouter from "../api/orders.router.api.js"*/
+import dao from "../../data/index.factory.js"
+const { products } = dao
 
-import { orders, products, users } from "../../data/mongo/manager.mongo.js"
 import productsRouter from "./products.views.js"
 import ordersRouter from "./orders.views.js"
 import sessionsRouter from "./sessions.views.js"
@@ -51,7 +48,7 @@ export default class ViewsRouter extends CustomRouter {
             }
         })
 
-        this.read("/products/form", ["ADMIN", "PREM"], (req, res, next) => {
+        this.read("/products/form", ["ADMIN"], (req, res, next) => {
             try {
                 return res.render("form", {})
             } catch (error) {
@@ -82,6 +79,15 @@ export default class ViewsRouter extends CustomRouter {
                 next(error)
             }
         })
+
+        this.read("/auth/verify", ["PUBLIC"], (req, res, next) => {
+            try {
+                return res.render("verify", {})
+            } catch (error) {
+                next(error)
+            }
+        })
+
 
         this.router.use("/products", productsRouter)
         this.router.use("/orders", ordersRouter)

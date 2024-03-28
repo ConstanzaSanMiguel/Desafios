@@ -4,7 +4,7 @@ import mongoosePaginate from "mongoose-paginate-v2"
 const collection = "orders"
 const schema = new Schema(
     {
-        uid: { type: Types.ObjectId, required: true, ref: "users" },
+        uid: { type: Types.ObjectId, required: true, ref: "users", index: true },
         pid: { type: Types.ObjectId, required: true, ref: "products" },
         quantity: { type: Number, default: 1, min: 1 },
         state: {

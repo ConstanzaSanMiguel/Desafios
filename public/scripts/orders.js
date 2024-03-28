@@ -1,7 +1,6 @@
 const selectors = document.querySelectorAll(".deleteButton")
 selectors.forEach((each) =>
     each.addEventListener("click", async (event) => {
-        //console.log(event.target)
         try {
             const url = "/api/orders/" + event.target.id;
             const opts = {
@@ -12,8 +11,17 @@ selectors.forEach((each) =>
             response = await response.json()
             console.log(response)
             if (response.statusCode === 200) {
-                alert(response.response)
-                location.reload()
+                Swal.fire({
+                    title: 'Product deleted!',
+                    text: "This window will close in 2 seconds",
+                    icon: 'success',
+                    timer: 2000,
+                    showConfirmButton: false,
+                    confirmButtonColor: "#7d5a7b",
+                    confirmButtonText: 'OK'
+                }).then(() => {
+                    location.reload()
+                })
             }
         } catch (error) {
             alert(error.message)
@@ -29,5 +37,5 @@ fetch(`/api/orders/total/${uid}`)
         document.getElementById("total").textContent = `My total: USD ${total}`
     })
     .catch(error => {
-        console.error("Cart error:"+  error)
+        console.error("Cart error:" + error)
     })

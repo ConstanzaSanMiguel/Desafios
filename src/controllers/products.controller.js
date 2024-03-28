@@ -1,8 +1,8 @@
-import productsService from '../services/products.services.js'
+import service from '../services/products.services.js'
 
 class ProductsController {
     constructor() {
-        this.service = productsService
+        this.service = service
     }
 
     create = async (req, res, next) => {

@@ -1,8 +1,7 @@
 import fs from "fs"
-import crypto from "crypto"
+import notFoundOne from "../../utils/notFoundOne.js"
 
 class UserManager {
-    static #users = [];
 
     constructor(path) {
         this.path = path;
@@ -13,37 +12,32 @@ class UserManager {
     init() {
         const file = fs.existsSync(this.path);
         if (file) {
-            UserManager.#users = JSON.parse(fs.readFileSync(this.path, "utf-8"));
+            this.user = JSON.parse(fs.readFileSync(this.path, "utf-8"));
         } else {
             fs.writeFileSync(this.path, JSON.stringify([], null, 2));
         }
     }
     async create(data) {
         try {
-            const id = crypto.randomBytes(12).toString("hex")
-            const user = {
-                id,
-                name: data.name,
-                photo: data.photo,
-                email: data.email,
-            }
-            UserManager.#users.push(user)
+            this.user.push(data)
             await fs.promises.writeFile(
                 this.path,
-                JSON.stringify(UserManager.#users, null, 2)
+                JSON.stringify(this.user, null, 2)
             )
-            return true
-
+            return data
         } catch (error) {
             throw error
         }
     }
     async read({ filter, sortAndPaginate }) {
+        //no filtra ni pagina
         try {
-            if (UserManager.#users.length === 0) {
-                throw new Error("There are no users!")
+            if (this.user.length === 0) {
+                const error = new Error("Nothing found!")
+                error.statusCode = 404
+                throw error
             } else {
-                const all = await UserManager.#users
+                const all = await this.user
                     .paginate(filter, sortAndPaginate)
                 return all
             }
@@ -53,14 +47,13 @@ class UserManager {
     }
     readOne(id) {
         try {
-            const searchId = UserManager.#users.find((each) => each.id === id)
-            if (!searchId) {
-                const error = new Error("There are no users with id" + id)
-                error.statusCode = 400
+            const one = this.user.find((each) => each.id === id)
+            if (!one) {
+                const error = new Error("Nothing found!")
+                error.statusCode = 404
                 throw error
             } else {
-                console.log("read " + searchId)
-                return searchId
+                return one
             }
         } catch (error) {
             throw error
@@ -68,57 +61,39 @@ class UserManager {
     }
     async destroy(id) {
         try {
-            const destroyId = UserManager.#users.findIndex((each) => each.id === id)
-            if (destroyId === -1) {
-                const error = new Error("User not found")
-                error.statusCode = 400
-                throw error
-            } else {
-                UserManager.#users = UserManager.#users.filter((each) => each.id !== id)
-                const jsonData = JSON.stringify(UserManager.#users, null, 2)
-                await fs.promises.writeFile(this.path, jsonData)
-                console.log("Deleted user with id: " + id)
-                return {
-                    statusCode: 200,
-                    response: id,
-                }
-            }
+            const one = this.readOne(id)
+            notFoundOne(one)
+            this.user = this.user.filter((each) => each._id !== id)
+            const jsonData = JSON.stringify(this.user, null, 2)
+            await fs.promises.writeFile(this.path, jsonData)
+            return one
         } catch (error) {
             throw error
         }
     }
-    update(id, data) {
-        const userIndex = UserManager.#users.findIndex((each) => each.id === id)
-
-        if (userIndex === -1) {
-            const error = new Error("User " + id + " not found.")
-            error.statusCode = 400
+    async update(id, data) {
+        try {
+            const one = this.readOne(id)
+            notFoundOne(one)
+            for (let each in data) {
+                one[each] = data[each]
+            }
+            const jsonData = JSON.stringify(this.user, null, 2)
+            await fs.promises.writeFile(this.path, jsonData)
+            return one
+        } catch (error) {
             throw error
         }
-        const updatedUser = {
-            ...UserManager.#users[userIndex],
-            ...data,
-            id: id,
-        };
-
-        UserManager.#users[userIndex] = updatedUser
-
-        const jsonData = JSON.stringify(UserManager.#users, null, 2)
-        fs.promises.writeFile(this.path, jsonData)
-
-        console.log("Updated user with id: " + id)
-        return updatedUser
     }
     readByEmail(email) {
         try {
-            const searchEmail = UserManager.#users.find((each) => each.email === email)
-            if (!searchEmail) {
-                const error = new Error("There are no users with the email" + email)
-                error.statusCode = 400
+            const one = this.user.find((each) => each.email === email)
+            if (!one) {
+                const error = new Error("Nothing found!")
+                error.statusCode = 404
                 throw error
             } else {
-                console.log("read " + searchEmail)
-                return searchEmail
+                return one
             }
         } catch (error) {
             throw error

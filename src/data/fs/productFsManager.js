@@ -1,53 +1,45 @@
 import fs from "fs"
-import crypto from "crypto"
+import notFoundOne from "../../utils/notFoundOne.js"
 
 class ProductManager {
-    static #products = [];
 
     constructor(path) {
-        this.path = path;
-        this.product = [];
-        this.init();
+        this.path = path
+        this.product = []
+        this.init()
     }
 
     init() {
         const file = fs.existsSync(this.path);
         if (file) {
-            ProductManager.#products = JSON.parse(fs.readFileSync(this.path, "utf-8"));
+            this.product = JSON.parse(fs.readFileSync(this.path, "utf-8"));
         } else {
             fs.writeFileSync(this.path, JSON.stringify([], null, 2));
         }
     }
     async create(data) {
         try {
-            const id = crypto.randomBytes(12).toString("hex")
-            const product = {
-                id,
-                title: data.title,
-                photo: data.photo,
-                price: data.price,
-                stock: data.stock,
-            }
-            ProductManager.#products.push(product);
+            this.product.push(data);
             await fs.promises.writeFile(
                 this.path,
-                JSON.stringify(ProductManager.#products, null, 2)
+                JSON.stringify(this.product, null, 2)
             )
-            return true
+            return data
         }
         catch (error) {
             throw error
         }
     }
     async read({ filter, sortAndPaginate }) {
+        //no filtra ni pagina
         try {
-            if (ProductManager.#products.length === 0) {
-                const error = new Error("There are not products!")
-                error.statusCode = 400
+            if (this.product.length === 0) {
+                const error = new Error("Nothing found!")
+                error.statusCode = 404
                 throw error
             } else {
-                const all = await ProductManager.#products
-                    .paginate(filter, sortAndPaginate)
+                const all = await this.product
+                    //.paginate(filter, sortAndPaginate)
                 return all
             }
         } catch (error) {
@@ -56,14 +48,13 @@ class ProductManager {
     }
     readOne(id) {
         try {
-            const searchId = ProductManager.#products.find((each) => each.id === id)
-            if (!searchId) {
-                const error = new Error("There are no products with id " + id)
-                error.statusCode = 400
+            const one = this.product.find((each) => each._id === id)
+            if (!one) {
+                const error = new Error("Nothing found!")
+                error.statusCode = 404
                 throw error
             } else {
-                console.log("read " + searchId)
-                return searchId
+                return one
             }
         } catch (error) {
             throw error
@@ -71,44 +62,29 @@ class ProductManager {
     }
     async destroy(id) {
         try {
-            let destroyId = ProductManager.#products.findIndex((each) => each.id === id)
-            if (destroyId === -1) {
-                const error = new Error("Product not found")
-                error.statusCode = 400
-                throw error
-            } else {
-                ProductManager.#products = ProductManager.#products.filter((each) => each.id !== id)
-                const jsonData = JSON.stringify(ProductManager.#products, null, 2);
-                await fs.promises.writeFile(this.path, jsonData)
-                return {
-                    statusCode: 200,
-                    response: "Deleted product with id: " + id,
-                }
-            }
+            const one = this.readOne(id)
+            notFoundOne(one)
+            this.product = this.product.filter((each) => each._id !== id)
+            const jsonData = JSON.stringify(this.product, null, 2)
+            await fs.promises.writeFile(this.path, jsonData)
+            return one
         } catch (error) {
             throw error
         }
     }
-    update(id, data) {
-        const productIndex = ProductManager.#products.findIndex((each) => each.id === id)
-
-        if (productIndex === -1) {
-            const error = new Error("Product " + id + " not found.")
-            error.statusCode = 400
+    async update(id, data) {
+        try {
+            const one = this.readOne(id)
+            notFoundOne(one)
+            for (let each in data) {
+                one[each] = data[each]
+            }
+            const jsonData = JSON.stringify(this.product, null, 2)
+            await fs.promises.writeFile(this.path, jsonData)
+            return one
+        } catch (error) {
             throw error
         }
-        const updatedProduct = {
-            ...ProductManager.#products[productIndex],
-            ...data,
-            id: id,
-        };
-
-        ProductManager.#products[productIndex] = updatedProduct
-
-        const jsonData = JSON.stringify(ProductManager.#products, null, 2)
-        fs.promises.writeFile(this.path, jsonData)
-
-        return updatedProduct
     }
 }
 

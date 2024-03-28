@@ -1,20 +1,17 @@
-import ordersService from "../services/orders.services.js"
+import service from "../services/orders.services.js"
 import { verifyToken } from "../utils/token.util.js"
 
 class OrdersController {
     constructor() {
-        this.service = ordersService
+        this.service = service
     }
-
     create = async (req, res, next) => {
         try {
             const product_id = req.body.product
-
             const data = {
                 uid: req.user._id,
                 pid: product_id,
             }
-
             const response = await this.service.create(data)
             if (response) {
                 return res.success201(response)

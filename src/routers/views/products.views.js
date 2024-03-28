@@ -1,5 +1,8 @@
 import { Router } from "express"
-import { products } from "../../data/mongo/manager.mongo.js"
+
+import dao from "../../data/index.factory.js"
+const { products } = dao
+
 import passCallBack from "../../middlewares/passCallBack.js"
 import isAdmin from "../../middlewares/isAdmin.js"
 
@@ -30,6 +33,5 @@ productsRouter.get("/:pid", async (req, res, next) => {
         next(error)
     }
 })
-
 
 export default productsRouter

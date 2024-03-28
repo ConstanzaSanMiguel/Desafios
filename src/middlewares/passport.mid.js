@@ -2,9 +2,9 @@ import passport from "passport"
 import { Strategy as LocalStrategy } from "passport-local"
 import { Strategy as GoogleStrategy } from "passport-google-oauth2"
 import { ExtractJwt, Strategy as JwtStrategy } from "passport-jwt"
-import { createHash, verifyHash } from "../utils/hash.util.js"
+import { verifyHash } from "../utils/hash.util.js"
 import { createToken } from "../utils/token.util.js"
-import { users } from "../data/mongo/manager.mongo.js"
+import repository from "../repositories/users.rep.js";
 const { GOOGLE_ID, GOOGLE_SECRET, SECRET } = process.env
 
 passport.use(
@@ -13,11 +13,10 @@ passport.use(
         { passReqToCallback: true, usernameField: "email" },
         async (req, email, password, done) => {
             try {
-                let one = await users.readByEmail(email)
+                let one = await repository.readByEmail(email)
                 if (one) return done(null, false)
                 let data = req.body
-                data.password = createHash(password)
-                let user = await users.create(data)
+                let user = await repository.create(data)
                 return done(null, user)
             } catch (error) {
                 return done(error)
@@ -31,8 +30,9 @@ passport.use(
         { passReqToCallback: true, usernameField: "email" },
         async (req, email, password, done) => {
             try {
-                let user = await users.readByEmail(email)
-                if (user && verifyHash(password, user.password)) {
+                let user = await repository.readByEmail(email)
+                const verify = verifyHash(password, user.password)
+                if (user?.verified && verify) {
                     const token = createToken({ email, role: user.role, uid: user.id })
                     req.token = token
                     return done(null, user)
@@ -56,7 +56,7 @@ passport.use(
         },
         async (req, accessToken, refreshToken, profile, done) => {
             try {
-                let user = await users.readByEmail(profile.id + "@gmail.com")
+                let user = await repository.readByEmail(profile.id + "@gmail.com")
                 if (!user) {
                     user = {
                         email: profile.id + "@gmail.com",
@@ -65,7 +65,7 @@ passport.use(
                         photo: profile.coverPhoto,
                         password: createHash(profile.id),
                     }
-                    user = await users.create(user)
+                    user = await repository.create(user)
                 }
                 req.session.email = user.email
                 req.session.role = user.role
@@ -86,7 +86,7 @@ passport.use(
         },
         async (payload, done) => {
             try {
-                const user = await users.readByEmail(payload.email)
+                const user = await repository.readByEmail(payload.email)
                 if (user) {
                     user.password = null
                     return done(null, user)
