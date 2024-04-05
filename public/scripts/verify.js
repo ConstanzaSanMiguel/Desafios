@@ -1,39 +1,35 @@
-document.querySelector("#newUser").addEventListener("click", async (event) => {
 
+document.querySelector("#verifyUser").addEventListener("click", async (event) => {
     event.preventDefault()
-
-    const data = {
-        name: document.querySelector("#username").value,
-        email: document.querySelector("#email").value,
-        password: document.querySelector("#password").value,
-        photo: document.querySelector("#photo").value
-    }
-
     try {
+        const data = {
+            email: document.querySelector("#email").value,
+            verifiedCode: document.querySelector("#verifiedCode").value
+        }
         const options = {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(data),
         }
-        let response = await fetch("/api/sessions/register", options)
+        let response = await fetch("/api/sessions/verify", options)
         response = await response.json()
-
-        console.log(response)
 
         if (response.statusCode === 200) {
             Swal.fire({
-                title: 'Success!',
+                title: 'Correctly verified!',
                 text: response.message,
                 icon: 'success',
+                confirmButtonColor: "#7d5a7b",
                 confirmButtonText: 'OK'
             }).then(() => {
                 location.replace("/auth/login")
             })
         } else {
             Swal.fire({
-                title: 'Error!',
+                title: 'Incorrect code!',
                 text: response.message,
                 icon: 'error',
+                confirmButtonColor: "#7d5a7b",
                 confirmButtonText: 'OK'
             })
         }

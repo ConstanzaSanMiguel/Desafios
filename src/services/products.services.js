@@ -1,54 +1,15 @@
-import { products } from "../data/mongo/manager.mongo.js"
+import repository from "../repositories/products.rep.js"
 
 class ProductsService {
     constructor() {
-        this.model = products
+        this.repository = repository
     }
-    create = async (data) => {
-        try {
-            const response = await this.model.create(data)
-            return response
-        } catch (error) {
-            throw error
-        }
-    }
-    
-    read = async ({ filter, sortAndPaginate }) => {
-        try {
-            const response = await this.model.read({ filter, sortAndPaginate })
-            return response
-        } catch (error) {
-            throw error
-        }
-    }
-
-    readOne = async (id) => {
-        try {
-            const response = await this.model.readOne(id)
-            return response
-        } catch (error) {
-            throw error
-        }
-    }
-
-    update = async (id, data) => {
-        try {
-            const response = await this.model.update(id, data)
-            return response
-        } catch (error) {
-            throw error
-        }
-    }
-
-    destroy = async (id) => {
-        try {
-            const response = await this.model.destroy(id)
-            return response
-        } catch (error) {
-            throw error
-        }
-    }
+    create = async (data) => await this.repository.create(data)
+    read = async ({ filter, sortAndPaginate }) => await this.repository.read({ filter, sortAndPaginate })
+    readOne = async (id) => await this.repository.readOne(id)
+    update = async (id, data) => await this.repository.update(id, data)
+    destroy = async (id) => await this.repository.destroy(id)
 }
 
-const productsService = new ProductsService()
-export default productsService
+const service = new ProductsService()
+export default service

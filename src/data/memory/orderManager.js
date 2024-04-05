@@ -1,36 +1,32 @@
-//import crypto from "crypto"
-import users from "../../data/fs/userFsManager.js"
+import crypto from "crypto"
+import users from "./userManager.js"
+import notFoundOne from "../../utils/notFoundOne.js"
 
 class OrdersManager {
     static #orders = []
 
     async create(data) {
         try {
-            //const oid = crypto.randomBytes(9).toString("hex")
-            const oid = OrdersManager.#orders.length === 0
-                ? 1
-                : OrdersManager.#orders[OrdersManager.#orders.length - 1].oid + 1
-            const { uid, pid, quantity, state } = data
-
+            const oid = crypto.randomBytes(9).toString("hex")
             const order = {
                 oid,
-                uid,
-                pid,
-                quantity,
-                state: "reserved",
+                uid: data.uid,
+                pid: data.pid,
+                quantity: data.quantity,
+                state: data.state || "reserved",
             }
-
             OrdersManager.#orders.push(order)
-            return true;
+            return order.oid
         } catch (error) {
             return error
         }
     }
     async read({ filter, sortAndPaginate }) {
+        //no filtra ni pagina todavía
         try {
             if (OrdersManager.#orders.length === 0) {
-                const error = new Error("There are no orders!")
-                error.statusCode = 400
+                const error = new Error("Nothing found!")
+                error.statusCode = 404
                 throw error
             } else {
                 const all = await OrdersManager.#orders
@@ -41,91 +37,45 @@ class OrdersManager {
             throw error
         }
     }
-    readOne(uid) {
+    readOne(id) {
         try {
-            const user = users.readOne(uid)
-            if (typeof user === "string") {
-                throw new Error("User with id " + uid + " not found")
-            }
-            const searchUid = OrdersManager.#orders.filter(order => order.uid === user.uid)
-            if (searchUid.length === 0) {
-                throw new Error("User with id " + uid + " has no orders")
-            }
-            console.log("User orders: " + searchUid)
-            return searchUid
-        } catch (error) {
-            console.log(error.message)
-            return error.message
-        }
-    }
-    update(oid, quantity, state) {
-        try {
-            // Convierto el id a número para comprobación
-            const userOid = parseInt(oid)
-            const orderIndex = OrdersManager.#orders.findIndex((each) => each.oid === userOid)
-            const existingOrder = OrdersManager.#orders[orderIndex]
-            if (!existingOrder) {
-                const error = new Error("Order with ID " + oid + " not found")
-                error.statusCode = 400
+            const user = users.readOne(id)
+            const one = OrdersManager.#orders.find(each => each.uid === user.id)
+            if (!one) {
+                const error = new Error("Nothing found!")
+                error.statusCode = 404
                 throw error
             }
-            const updatedOrder = {
-                ...existingOrder,
-                quantity: quantity !== undefined ? quantity : existingOrder.quantity,
-                state: state !== undefined ? state : existingOrder.state,
-            };
-
-            OrdersManager.#orders[orderIndex] = updatedOrder
-
-            console.log("Order with ID " + oid + " updated")
-            return updatedOrder
+            return one
         } catch (error) {
-            console.log(error.message)
-            return error.message
+            throw error
         }
     }
-    async destroy(oid) {
+    update(id, data) {
         try {
-            const destroyId = OrdersManager.#orders.findIndex((each) => each.oid === parseInt(oid))
-            if (destroyId === -1) {
-                throw new Error("Order not found")
-            } else {
-                OrdersManager.#orders = OrdersManager.#orders.filter((each) => each.oid !== parseInt(oid))
-                console.log("Deleted order with id: " + oid)
-                return oid
+            const one = this.readOne(id)
+            notFoundOne(one)
+            for (let each in data) {
+                one[each] = data[each]
             }
+            return one
         } catch (error) {
-            console.log(error.message)
-            return error.message
+            throw error
+        }
+    }
+    async destroy(id) {
+        try {
+            const one = this.readOne(id)
+            notFoundOne(one)
+            OrdersManager.#orders = OrdersManager.#orders.filter(
+                (each) => each.id !== id
+            )
+            return one
+        } catch (error) {
+            throw error
         }
     }
 }
 
 const orders = new OrdersManager()
 export default orders
-
-orders.create({
-    uid: "84dbb7503b0f7cd7b71a2fbb",
-    pid: "3159b186cdcc6061a481c52b",
-    quantity: 4,
-    state: "reserved"
-})
-
-orders.create({
-    uid: "8dcf6c315f80f87b8fc940c7",
-    pid: "f3894911d6335c61f20c78c5",
-    quantity: 20,
-    state: "reserved"
-})
-
-orders.create({
-    uid: "333f6c315f80f87b8fc940c9",
-    pid: "f3894911d6335c61f20c78c5",
-    quantity: 14,
-    state: "reserved"
-})
-
-console.log(orders.read())
-console.log(orders.readByUser("3"))
-console.log(orders.destroy("2"))
-console.log(orders.update("1", 10, "paid"))

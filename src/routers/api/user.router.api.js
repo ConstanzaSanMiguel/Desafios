@@ -1,11 +1,10 @@
 import CustomRouter from "../CustomRouter.js"
 import { create, destroy, read, readByEmail, readOne, update } from "../../controllers/users.controllers.js"
 import has8char from "../../middlewares/has8char.mid.js"
-//import propsUsers from "../../middlewares/propsUsers.js"
 
 export default class UsersRouter extends CustomRouter {
     init() {
-        this.create('/', ["PUBLIC"],/*propsUsers,*/ has8char, create)
+        this.create('/', ["PUBLIC"], has8char, create)
 
         this.read('/', ["ADMIN"], read)
 

@@ -1,8 +1,6 @@
 import { socketServer } from "../../server.js"
-import { products } from "../data/mongo/manager.mongo.js"
-//import products from "../data/fs/productFsManager.js"
-import { users } from "../data/mongo/manager.mongo.js"
-//import users from "../data/fs/userFsManager.js"
+import products from "../data/mongo/manager.mongo.js"
+import  users  from "../data/mongo/manager.mongo.js"
 
 export default async (socket) => {
     console.log(`client ${socket.id} connected`)

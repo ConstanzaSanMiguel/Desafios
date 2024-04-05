@@ -5,7 +5,7 @@ import passCallBack from "../../middlewares/passCallBack.js"
 
 export default class OrdersRouter extends CustomRouter {
     init() {
-        this.create('/', ["USER", "PREM"], passCallBack("jwt"),/*propsOrders,*/create)
+        this.create('/', ["ADMIN", "USER", "PREM"], passCallBack("jwt"),/*propsOrders,*/create)
         this.read('/', ["USER", "PREM"], read)
         this.read("/:uid", ["USER", "PREM", "ADMIN"], readOne)
         this.read('/total/:uid', ["USER", "PREM", "ADMIN"], report)

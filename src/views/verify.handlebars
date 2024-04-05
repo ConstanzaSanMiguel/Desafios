@@ -1,0 +1,21 @@
+<main class="contact">
+    <h1 class="mt-5 mb-2 text-center text-decoration-underline">Please verify your account</h1>
+    <form class="verifyaccount">
+        <div class="container">
+            <fieldset class="mb-3 text-left">
+                <label for="email" class="form-label mb-0">Email</label><br>
+                <input type="email" class="form-control" id="email" required placeholder="Please type your email">
+            </fieldset>
+            <fieldset class="mb-3 text-left">
+                <label for="text" class="form-label mb-0">Verify code</label><br>
+                <input type="text" class="form-control" id="verifiedCode" required
+                    placeholder="Please enter your code">
+            </fieldset>
+            <div class="btn-group d-grid gap-2 col-6 mx-auto buttons" role="group" aria-label="Basic example">
+                <button type="submit" class="btn btn-primary btn-sm button" id="verifyUser">Send</button>
+            </div>
+        </div>
+    </form>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="/scripts/verify.js"></script>

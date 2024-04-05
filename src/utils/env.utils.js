@@ -11,5 +11,7 @@ export default {
     SECRET: process.env.SECRET,
     SECRET_KEY: process.env.SECRET_KEY,
     GOOGLE_ID: process.env.GOOGLE_ID,
-    GOOGLE_SECRET: process.env.GOOGLE_SECRET
+    GOOGLE_SECRET: process.env.GOOGLE_SECRET,
+    GOOGLE_EMAIL: process.env.GOOGLE_EMAIL,
+    GOOGLE_PASSWORD: process.env.GOOGLE_PASSWORD,   
 }
