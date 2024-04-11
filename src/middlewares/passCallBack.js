@@ -1,4 +1,6 @@
 import passport from "passport"
+import CustomError from "../utils/errors/customError.js"
+import errors from "../utils/errors/errors.js"
 
 export default (strategy) => {
     return async (req, res, next) => {
@@ -8,9 +10,9 @@ export default (strategy) => {
                 return next(error);
             }
             if (!user) {
-                return res.json({
-                    statusCode: info.statusCode || 401,
-                    message: info.message || info.toString(),
+                CustomError.new({
+                    message: info.message || errors.auth.message,
+                    statusCode: info.statusCode || errors.auth.statusCode,
                 })
             }
             req.user = user

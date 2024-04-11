@@ -1,5 +1,6 @@
 import crypto from "crypto"
 import notFoundOne from "../../utils/notFoundOne.js"
+import CustomError from "../../utils/errors/customError.js";
 
 class UserManager {
     static #users = [];
@@ -30,9 +31,7 @@ class UserManager {
         //no filtra ni pagina todavía
         try {
             if (UserManager.#users.length === 0) {
-                const error = new Error("Nothing found!")
-                error.statusCode = 404
-                throw error
+                CustomError.new(errors.notFound)
             } else {
                 const all = await UserManager.#users
                     .paginate(filter, sortAndPaginate)

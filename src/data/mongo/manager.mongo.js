@@ -3,6 +3,8 @@ import Product from "./models/product.model.js"
 import Order from "./models/order.model.js"
 import notFoundOne from "../../utils/notFoundOne.js"
 import { Types } from "mongoose"
+import CustomError from "../../utils/errors/customError.js"
+import errors from "../../utils/errors/errors.js"
 
 class MongoManager {
     constructor(model) {
@@ -23,9 +25,7 @@ class MongoManager {
             sortAndPaginate = { ...sortAndPaginate, lean: true }
             const all = await this.model.paginate(filter, sortAndPaginate)
             if (all.docs.length === 0) {
-                const error = new Error("Nothing found!")
-                error.statusCode = 404
-                throw error
+                CustomError.new(errors.notFound)
             }
             return all
         } catch (error) {
@@ -96,9 +96,7 @@ class MongoManager {
                 //{ $merge: { into: "total" } },
             ])
             if (report.length === 0) {
-                const error = new Error("User has no orders")
-                error.statusCode = 404
-                throw error
+                CustomError.new(errors.noOrders)
             } else {
                 return report
             }
