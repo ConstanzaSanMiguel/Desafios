@@ -1,12 +1,13 @@
 import { connect } from "mongoose"
+import winstonLogger from "./logger/index.js"
 
 const dbConnection = async () => {
   try {
     await connect(process.env.DB_LINK)
-    console.log("Connection to the database was successful.")
+    winstonLogger.INFO("Connection to the database was successful.")
   } catch (error) {
-    console.log(error)
+    winstonLogger.WARN(error)
   }
-};
+}
 
 export default dbConnection

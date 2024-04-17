@@ -1,4 +1,5 @@
 import service from "../services/orders.services.js"
+import winstonLogger from "../utils/logger/index.js"
 import { verifyToken } from "../utils/token.util.js"
 
 class OrdersController {
@@ -56,7 +57,7 @@ class OrdersController {
     report = async (req, res, next) => {
         try {
             const data = verifyToken(req.cookies.token)
-            console.log('user', data)
+            winstonLogger.INFO('user', data)
             const { uid } = data
             const report = await this.service.report(uid)
             return res.success201(report)

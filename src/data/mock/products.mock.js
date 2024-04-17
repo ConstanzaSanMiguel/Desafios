@@ -1,5 +1,6 @@
 import { faker } from '@faker-js/faker'
 import repository from "../../repositories/products.rep.js"
+import winstonLogger from '../../utils/logger/index.js'
 
 function productsMock() {
     return {
@@ -14,9 +15,9 @@ export const createMock = async () => {
     try {
         const data = productsMock()
         await repository.create(data)
-        console.log("Mock product created.")
+        winstonLogger.INFO("Mock product created.")
     } catch (error) {
-        console.log(error.message)
+        winstonLogger.WARN(error.message)
     }
 }
 
@@ -25,4 +26,4 @@ for (let i = 1; i <= 100; i++) {
 }
 
 
-console.log("Mock ended")
+winstonLogger.INFO("Mock ended")

@@ -15,12 +15,14 @@ import compression from "express-compression"
 import router from "./src/routers/index.router.js"
 import errorHandler from "./src/middlewares/errorHandler.js"
 import pathHandler from "./src/middlewares/pathHandler.js"
+import winston from "./src/middlewares/winston.mid.js"
+import winstonLogger from "./src/utils/logger/index.js"
 import __dirname from "./utils.js"
 
 const server = express()
 const PORT = env.PORT || 8080
 const ready = () => {
-    console.log("Server ready on port " + PORT)
+    winstonLogger.INFO("Server ready on port " + PORT)
 }
 const httpServer = createServer(server)
 const socketServer = new Server(httpServer)
@@ -57,6 +59,7 @@ server.use(express.json())
 server.use(express.urlencoded({ extended: true }))
 server.use(express.static(__dirname + "/public"))
 server.use(morgan("dev"))
+server.use(winston)
 server.use(compression({ brotli: { enabled: true, zlib: {} }, }))
 
 //endpoints
