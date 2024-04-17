@@ -1,6 +1,8 @@
 import { Router } from "express"
 import jwt from "jsonwebtoken"
 import users from "../data/mongo/users.mongo.js"
+import CustomError from "../utils/errors/customError.js"
+import errors from "../utils/errors/errors.js"
 
 export default class CustomRouter {
     constructor() {
@@ -27,10 +29,10 @@ export default class CustomRouter {
             res.json({ statusCode: 200, response: payload })
         res.success201 = (payload) =>
             res.json({ statusCode: 201, response: payload })
-        res.error400 = (message) => res.json({ statusCode: 400, message })
-        res.error401 = () => res.json({ statusCode: 401, message: "Bad auth!" })
-        res.error403 = () => res.json({ statusCode: 403, message: "Forbidden!" })
-        res.error404 = () => res.json({ statusCode: 404, message: "Not found!" })
+        res.error400 = () => CustomError.new(errors.error)
+        res.error401 = () => CustomError.new(errors.auth)
+        res.error403 = () => CustomError.new(errors.forbidden)
+        res.error404 = () => CustomError.new(errors.notFound)
         return next()
     }
     policies = (arrayOfPolicies) => async (req, res, next) => {

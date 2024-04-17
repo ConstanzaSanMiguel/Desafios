@@ -1,8 +1,8 @@
+import CustomError from "./errors/customError.js"
+
 function notFoundOne(one) {
     if (!one) {
-        const error = new Error("Nothing found!")
-        error.statusCode = 404
-        throw error
+        CustomError.new(errors.notFound)
     }
 }
 
