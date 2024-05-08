@@ -1,5 +1,6 @@
 import crypto from "crypto"
 import notFoundOne from "../../utils/notFoundOne.js"
+import winstonLogger from "../../utils/logger/index.js";
 
 class ProductManager {
     static #products = [];
@@ -10,7 +11,7 @@ class ProductManager {
             const missing = required.filter(prop => !(prop in data))
 
             if (missing.length > 0) {
-                console.log(`Error. Please add the following field: ${missing.join(" ")}`)
+                winstonLogger.WARN(`Error. Please add the following field: ${missing.join(" ")}`)
             } else {
                 const id = crypto.randomBytes(12).toString("hex")
                 const product = {
@@ -51,7 +52,7 @@ class ProductManager {
                 error.statusCode = 404
                 throw error
             } else {
-                console.log("read ", one)
+                winstonLogger.INFO("read ", one)
                 return one
             }
         } catch (error) {

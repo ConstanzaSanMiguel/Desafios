@@ -1,5 +1,4 @@
 import CustomRouter from "../CustomRouter.js"
-
 import dao from "../../data/index.factory.js"
 const { products } = dao
 
@@ -87,7 +86,6 @@ export default class ViewsRouter extends CustomRouter {
                 next(error)
             }
         })
-
 
         this.router.use("/products", productsRouter)
         this.router.use("/orders", ordersRouter)

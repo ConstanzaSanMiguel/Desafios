@@ -1,6 +1,3 @@
-import User from "./models/user.model.js"
-import Product from "./models/product.model.js"
-import Order from "./models/order.model.js"
 import notFoundOne from "../../utils/notFoundOne.js"
 import { Types } from "mongoose"
 import CustomError from "../../utils/errors/customError.js"

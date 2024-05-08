@@ -1,8 +1,9 @@
 import { createTransport } from "nodemailer"
+import winstonLogger from "./logger/index.js"
 
 async function sendEmail(data) {
     try {
-        console.log(data)
+        winstonLogger.INFO(data)
         const transport = createTransport({
             service: "gmail",
             port: process.env.PORT,

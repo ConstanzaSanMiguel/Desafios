@@ -1,6 +1,7 @@
 import crypto from "crypto"
 import notFoundOne from "../../utils/notFoundOne.js"
 import CustomError from "../../utils/errors/customError.js";
+import winstonLogger from "../../utils/logger/index.js";
 
 class UserManager {
     static #users = [];
@@ -11,7 +12,7 @@ class UserManager {
             const missing = required.filter(prop => !(prop in data));
 
             if (missing.length > 0) {
-                console.log(`Error. Please add the following field: ${missing.join(" ")}`);
+                winstonLogger.WARN(`Error. Please add the following field: ${missing.join(" ")}`);
             } else {
                 const id = crypto.randomBytes(12).toString("hex")
                 const user = {
