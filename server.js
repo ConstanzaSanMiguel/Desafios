@@ -18,6 +18,9 @@ import pathHandler from "./src/middlewares/pathHandler.js"
 import winston from "./src/middlewares/winston.mid.js"
 import winstonLogger from "./src/utils/logger/index.js"
 import __dirname from "./utils.js"
+import options from "./src/utils/swagger.js"
+import swaggerJSDoc from "swagger-jsdoc"
+import { serve, setup } from "swagger-ui-express"
 
 const server = express()
 const PORT = env.PORT || 8080
@@ -50,6 +53,9 @@ server.use(
         }),
     })
 )
+
+const specs = swaggerJSDoc(options)
+server.use("/api/docs", serve, setup(specs))
 
 server.use(cors({
     origin: true,

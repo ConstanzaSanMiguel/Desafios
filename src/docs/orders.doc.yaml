@@ -1,0 +1,199 @@
+components:
+  schemas:
+    Order:
+      type: object
+      properties:
+        uid:
+          description: User id
+          type: string
+        pid:
+          description: Product id
+          type: string
+        quantity:
+          description: Quantity of products bought
+          type: integer
+          minimum: 1
+        state:
+          description: State of the order
+          type: string
+          enum: [Reserved, Paid, Delivered]
+          default: Reserved
+      example:
+        uid: 65b56c5644718efafa6a10cc
+        pid: 65b56c5644718efafa6a10cd
+        quantity: 2
+        state: Reserved
+  responses:
+    create:
+      type: object
+      properties:
+        status: Response status
+        payload: Order created successfully
+      example:
+        status: success
+        payload:
+          _id: 65b56c5644718efafa6a10ce
+          uid: 65b56c5644718efafa6a10cc
+          pid: 65b56c5644718efafa6a10cd
+          quantity: 2
+          state: Reserved
+    read:
+      type: object
+      properties:
+        status: Response status
+        payload: Returns all orders from the user
+      example:
+        status: success
+        payload:
+          - _id: 65b56c5644718efafa6a10ce
+            uid: 65b56c5644718efafa6a10cc
+            pid: 65b56c5644718efafa6a10cd
+            quantity: 2
+            state: Reserved
+          - _id: 75c67c5644718efafa6a10df
+            uid: 65b56c5644718efafa6a10cc
+            pid: 75c67c5644718efafa6a10de
+            quantity: 1
+            state: Paid
+    auth:
+      type: object
+      properties:
+        status:
+          type: string
+          description: Request status
+        from:
+          type: string
+          description: Endpoint error description
+        message:
+          type: string
+          description: Error description
+      example:
+        status: auth
+        from: POST /api/sessions/login middleware
+        message: Invalid credentials
+    forbidden:
+      type: object
+      properties:
+        status:
+          type: string
+          description: Response status
+        from:
+          type: string
+          description: Endpoint error description
+        message:
+          type: string
+          description: Error description
+      example:
+        status: forbidden
+        from: POST /api/products/create
+        message: Forbidden
+    notFound:
+      type: object
+      properties:
+        status:
+          type: string
+          description: Response status
+        from:
+          type: string
+          description: Route of error
+        message:
+          type: string
+          description: Error description
+      example:
+        status: error
+        from: controller
+        message: Not found documents
+    fatal:
+      type: object
+      properties:
+        status:
+          type: string
+          description: Response status
+        from:
+          type: string
+          description: Route of error
+        message:
+          type: string
+          description: Error description
+      example:
+        status: fatal
+        from: error handler
+        message: daat is not defined
+  securitySchemes:
+    cookieAuth:
+      type: apiKey
+      in: cookie
+      name: token
+paths:
+  /api/orders:
+    post:
+      summary: Create a new order
+      tags:
+        - Order
+      security:
+        - cookieAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#components/schemas/Order'
+      responses:
+        "201":
+          description: Order created successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#components/responses/create'
+        "401":
+          description: Invalid credentials
+          content:
+            application/json:
+              schema:
+                $ref: '#components/responses/auth'
+        "403":
+          description: Access forbidden
+          content:
+            application/json:
+              schema:
+                $ref: '#components/responses/forbidden'
+        "500":
+          description: Server error
+          content:
+            application/json:
+              schema:
+                $ref: '#components/responses/fatal'
+    get:
+      summary: List all orders for the logged-in user
+      tags:
+        - Order
+      security:
+        - cookieAuth: []
+      parameters:
+        - name: limit
+          in: query
+          type: integer
+          description: Number of orders to show per page
+        - name: page
+          in: query
+          type: integer
+          description: Page number
+      responses:
+        "200":
+          description: Success in reading list of orders
+          content:
+            application/json:
+              schema:
+                $ref: '#components/responses/read'
+        "404":
+          description: Orders not found
+          content:
+            application/json:
+              schema:
+                $ref: '#components/responses/notFound'
+        "500":
+          description: Server error in reading orders
+          content:
+            application/json:
+              schema:
+                $ref: '#components/responses/fatal'
