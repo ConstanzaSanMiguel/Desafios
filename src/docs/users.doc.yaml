@@ -1,0 +1,338 @@
+components:
+  schemas:
+    User:
+      type: object
+      properties:
+        name:
+          description: User's name
+          type: string
+        email:
+          description: User's email address
+          type: string
+        password:
+          description: User's password
+          type: string
+        photo:
+          description: User's profile photo
+          type: string
+        role:
+          description: User's role
+          type: string
+          enum: [admin, user, prem]
+          default: user
+        verified:
+          description: Indicates if user's email is verified
+          type: boolean
+          default: false
+        verifiedCode:
+          description: Verification code sent to user's email
+          type: string
+      example:
+        name: Juan Perez
+        email: juanperez@example.com
+        password: hola1234
+        photo: https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRlJctBbVsSX1pwJbht3qF5rXFRfVo6q1qOyyv6DZeMOXcfsFKR
+        role: user
+    UserUpdate:
+      type: object
+      properties:
+        name:
+          description: User's name
+          type: string
+        email:
+          description: User's email address
+          type: string
+        password:
+          description: New user's password
+          type: string
+        photo:
+          description: User's profile photo
+          type: string
+        role:
+          description: User's role
+          type: string
+      example:
+        name: Juan Perez
+        email: juanperez@example.com
+        password: hola1234
+        photo: https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRlJctBbVsSX1pwJbht3qF5rXFRfVo6q1qOyyv6DZeMOXcfsFKR
+        role: user
+    Login:
+      type: object
+      properties:
+        email:
+          type: string
+          description: Registered email
+        password:
+          type: string
+          description: Password saved in the database
+      example:
+        email: juanperez@example.com
+        password: hola1234
+  responses:
+    register:
+      type: object
+      properties:
+        status:
+          type: string
+          description: Request status
+        payload:
+          type: object
+          description: Object with the registered user's id
+      example:
+        status: success
+        payload:
+          _id: 65b56c5644718efafa6a10cc
+          name: Juan Perez
+          email: juanperez@example.com
+          role: user
+    login:
+      type: object
+      properties:
+        status:
+          type: string
+          description: Request status
+        payload:
+          type: string
+          description: User logged in
+      example:
+        status: success
+        message: Logged in
+    signout:
+      type: object
+      properties:
+        status:
+          type: string
+          description:  Request status
+        payload:
+          type: string
+          description: User signed out
+      example:
+        status: success
+        message: Signed out
+    update:
+      type: object
+      properties:
+        status:
+          type: string
+          description: Response status
+        payload:
+          type: string
+          description: Modified data
+      example:
+          status: success
+          payload: 3a8d7bf19e2c4f2a1d6e5c0b
+    auth:
+      type: object
+      properties:
+        status:
+          type: string
+          description: Request status
+        from:
+          type: string
+          description: Endpoint error description
+        message:
+          type: string
+          description: Error description
+      example:
+        status: auth
+        from: POST /api/sessions/login middleware
+        message: Invalid credentials
+    forbidden:
+      type: object
+      properties:
+        status:
+          type: string
+          description: Response status
+        from:
+          type: string
+          description: Endpoint error description
+        message:
+          type: string
+          description: Error description
+      example:
+        status: forbidden
+        from: POST /api/products/create
+        message: Forbidden
+    notFound:
+      type: object
+      properties:
+        status:
+          type: string
+          description: Response status
+        from:
+          type: string
+          description: Route of error
+        message:
+          type: string
+          description: Error description
+      example:
+        status: error
+        from: controller
+        message: Not found documents
+    fatal:
+      type: object
+      properties:
+        status:
+          type: string
+          description: Response status
+        from:
+          type: string
+          description: Route of error
+        message:
+          type: string
+          description: Error description
+      example:
+        status: fatal
+        from: error handler
+        message: daat is not defined
+  securitySchemes:
+    cookieAuth:
+      type: apiKey
+      in: cookie
+      name: token
+paths:
+  /api/sessions/register:
+    post:
+      summary: Register a new user
+      tags:
+        - Sessions
+      requestBody:
+        required: true
+        description: Object with the minimum properties to register a user
+        content:
+          application/json:
+            schema:
+              $ref: '#components/schemas/User'
+      responses:
+        "201":
+          description: User registered successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#components/responses/register'
+        "401":
+          description: Invalid credentials
+          content:
+            application/json:
+              schema:
+                $ref: '#components/responses/auth'
+        "500":
+          description: Server error
+          content:
+            application/json:
+              schema:
+                $ref: '#components/responses/fatal'
+  /api/sessions/login:
+    post:
+      summary: Log in to the site
+      tags:
+        - Sessions
+      requestBody:
+        required: true
+        description: Object with the minimum properties to register a user
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/login'
+      responses:
+        "200":
+          description: User logged in successfully. Success returns a cookie "token"
+          headers: 
+            Set-Cookie:
+              schema: 
+                type: string
+                example: token=yJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiaWduYSBjb2RlciIsInJvbGUiOiJ1c2VyIiwiZW1haWwiOiJpZ25hQGNvZGVyLmNvbSIsImlhdCI6MTY5ODg0MjkzNSwiZXhwIjoxNjk4ODQ2NTM1fQ.FfpFL2XuKTp0MW6F_M8dy5qbKqHtYsw4mDET2611ddI
+          content:
+            application/json:
+              schema:
+                $ref: '#components/responses/login'
+        "401":
+          description: Invalid credentials
+          content:
+            application/json:
+              schema:
+                $ref: '#components/responses/auth'
+        "500":
+          description: Server error
+          content:
+            application/json:
+              schema:
+                $ref: '#components/responses/fatal'
+  /api/sessions/signout:
+    post:
+      summary: Log out of the app
+      tags:
+        - Sessions
+      security:
+        - cookieAuth: []
+      responses:
+        "200":
+          description: Successfully logged out
+          content:
+            application/json:
+              schema:
+                $ref: '#components/responses/signout'
+        "401":
+          description: Unauthenticated user
+          content:
+            application/json:
+              schema:
+                $ref: '#components/responses/auth'
+        "500":
+          description: Server error
+          content:
+            application/json:
+              schema:
+                $ref: '#components/responses/fatal'
+  /api/sessions:
+    put:
+      summary: Update user password
+      tags:
+        - Sessions
+      security:
+        - cookieAuth: []
+      parameters:
+        - name: uid
+          in: path
+          required: true
+          description: User's ObjectId to update
+          schema:
+            $type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#components/schemas/UserUpdate'
+      responses:
+        "200":
+          description: Success in updating the password
+          content:
+            application/json:
+              schema:
+                $ref: '#components/responses/update'
+        "401":
+          description: Invalid credentials
+          content:
+            application/json:
+              schema:
+                $ref: '#components/responses/auth'
+        "403":
+          description: Access forbidden
+          content:
+            application/json:
+              schema:
+                $ref: '#components/responses/forbidden'
+        "404":
+          description: User not found
+          content:
+            application/json:
+              schema:
+                $ref: '#components/responses/notFound'
+        "500":
+          description: Server error
+          content:
+            application/json:
+              schema:
+                $ref: '#components/responses/fatal'

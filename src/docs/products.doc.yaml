@@ -1,0 +1,339 @@
+components:
+  schemas:
+    Product:
+      type: object
+      properties:
+        title:
+          description: Product - Band/Soloist
+          type: string
+        photo:
+          description: Album cover
+          type: string
+        price:
+          description: Album price
+          type: number
+        stock:
+          description: Quantity in stock
+          type: number
+      example:
+        title: SEVENTEEN BEST ALBUM '17 IS RIGHT HERE' - SEVENTEEN
+        photo: https://i.scdn.co/image/ab67616d0000b2736c498180e56f57e7d7bcdb86
+        price: 22
+        stock: 30
+    ProductUpdate:
+      type: object
+      properties:
+        title:
+          description: Product - Band/Soloist
+          type: string
+        photo:
+          description: Album cover
+          type: string
+        price:
+          description: New pricing
+          type: number
+        stock:
+          description: Stock update
+          type: number
+      example:
+        stock: 35
+  responses:
+    create:
+      type: object
+      properties:
+        status: Response status
+        payload: Product created successfully
+      example:
+        status: success
+        payload:
+          _id: 8941ane1e7b1234607f2b4eg
+          title: Heng:garæ - SEVENTEEN
+          image: https://i.scdn.co/image/ab67616d0000b2736f29a60db7b4479599fae56d
+          price: 15
+          stock: 20
+    read:
+      type: object
+      properties:
+        status: Response status
+        payload: Returns all products from the server
+      example:
+        status: success
+        payload:
+          - _id: 3a8d7bf19e2c4f2a1d6e5c0b
+            title: DUAL - The Rose
+            photo: https://i.scdn.co/image/ab67616d0000b27333dff48e01d247461717ad9b
+            price: 20
+            stock: 20
+          - _id: b9e0a4d7f1c6e2b8a3d5f9c7
+            title: LOVE. - Def.
+            photo: https://i.scdn.co/image/ab67616d0000b2736da358f4e87355f5752bc44b
+            price: 30
+            stock: 30
+          - _id: 5fc1a3e9b2d8f4c7a6e2d9b1
+            title: SECOND WIND - BSS
+            photo: https://i.scdn.co/image/ab67616d0000b2731869a85947a5ea00df8c936f
+            price: 25
+            stock: 25
+    update:
+      type: object
+      properties:
+        status:
+          type: string
+          description: Response status
+        payload:
+          type: string
+          description: Modified data
+      example:
+          status: success
+          payload: 3a8d7bf19e2c4f2a1d6e5c0b
+    delete:
+      type: object
+      properties:
+        status:
+          type: string
+          description: Response status
+        payload:
+          type: string
+          description: Deleted product
+      example:
+        status: success
+        payload: 3a8d7bf19e2c4f2a1d6e5c0b
+    auth:
+      type: object
+      properties:
+        status:
+          type: string
+          description: Request status
+        from:
+          type: string
+          description: Endpoint error description
+        message:
+          type: string
+          description: Error description
+      example:
+        status: auth
+        from: POST /api/sessions/signout middleware
+        message: Invalid credentials
+    forbidden:
+      type: object
+      properties:
+        status:
+          type: string
+          description: Response status
+        from:
+          type: string
+          description: Endpoint error description
+        message:
+          type: string
+          description: Error description
+      example:
+        status: forbidden
+        from: POST /api/products/create
+        message: Forbidden
+    notFound:
+      type: object
+      properties:
+        status:
+          type: string
+          description: Response status
+        from:
+          type: string
+          description: Route of error
+        message:
+          type: string
+          description: Error description
+      example:
+        status: error
+        from: controller
+        message: Not found documents
+    fatal:
+      type: object
+      properties:
+        status:
+          type: string
+          description: Response status
+        from:
+          type: string
+          description: Route of error
+        message:
+          type: string
+          description: Error description
+      example:
+        status: fatal
+        from: error handler
+        message: daat is not defined
+  securitySchemes:
+    cookieAuth:
+      type: apiKey
+      in: cookie
+      name: token
+paths:
+  /api/products:
+    post:
+      summary: Create a new album
+      tags:
+        - Product
+      security:
+        - cookieAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#components/schemas/Product'
+      responses:
+        "201":
+          description: Product added successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#components/responses/create'
+        "401":
+          description: Invalid credentials
+          content:
+            application/json:
+              schema:
+                $ref: '#components/responses/auth'
+        "403":
+          description: Access forbidden
+          content:
+            application/json:
+              schema:
+                $ref: '#components/responses/forbidden'
+        "500":
+          description: Server error
+          content:
+            application/json:
+              schema:
+                $ref: '#components/responses/fatal'
+    get:
+      summary: List all products in the server
+      tags:
+        - Product
+      parameters:
+        - name: limit
+          in: query
+          type: integer
+          description: Number of products to show per page
+        - name: page
+          in: query
+          type: integer
+          description: Page number
+        - name: title
+          in: query
+          type: string
+          description: Page sorting
+      responses:
+        "200":
+          description: Success in reading list of products
+          content:
+            application/json:
+              schema:
+                $ref: '#components/responses/read'
+        "404":
+          description: Documents not found
+          content:
+            application/json:
+              schema:
+                $ref: '#components/responses/notFound'
+        "500":
+          description: Server error in reading products
+          content:
+            application/json:
+              schema:
+                $ref: '#components/responses/fatal'
+  /api/products/{pid}:
+    put:
+      summary: Update product data
+      tags:
+        - Product
+      security:
+        - cookieAuth: []
+      parameters:
+        - name: pid
+          in: path
+          required: true
+          description: Product's ObjectId to update
+          schema:
+            $type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#components/schemas/ProductUpdate'
+      responses:
+        "200":
+          description: Success in updating the product
+          content:
+            application/json:
+              schema:
+                $ref: '#components/responses/update'
+        "401":
+          description: Invalid credentials
+          content:
+            application/json:
+              schema:
+                $ref: '#components/responses/auth'
+        "403":
+          description: Access forbidden
+          content:
+            application/json:
+              schema:
+                $ref: '#components/responses/forbidden'
+        "404":
+          description: Product not found
+          content:
+            application/json:
+              schema:
+                $ref: '#components/responses/notFound'
+        "500":
+          description: Server error
+          content:
+            application/json:
+              schema:
+                $ref: '#components/responses/fatal'
+    delete:
+      summary: Deleting a product from the server
+      tags:
+        - Product
+      security:
+        - cookieAuth: []
+      parameters:
+        - name: pid
+          in: path
+          required: true
+          description: Product's ObjectId to delete
+          schema:
+            $type: string
+      responses:
+        "200":
+          description: Success in deleting the product
+          content:
+            application/json:
+              schema:
+                $ref: '#components/responses/delete'
+        "401":
+          description: Invalid credentials
+          content:
+            application/json:
+              schema:
+                $ref: '#components/responses/auth'
+        "403":
+          description: Access forbidden
+          content:
+            application/json:
+              schema:
+                $ref: '#components/responses/forbidden'
+        "404":
+          description: Product not found
+          content:
+            application/json:
+              schema:
+                $ref: '#components/responses/notFound'
+        "500":
+          description: Server error
+          content:
+            application/json:
+              schema:
+                $ref: '#components/responses/fatal'
