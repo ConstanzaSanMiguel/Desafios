@@ -240,6 +240,20 @@ body {
     background-color: #947593;
 }
 
+.deleteProdButton {
+    padding: 8px 10px;
+    background-color: #ba373e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.deleteProdButton:hover {
+    background-color: #947593;
+}
+
 .deleteButton {
     width: 78%;
     cursor: pointer;
@@ -252,4 +266,26 @@ body {
 
 .verifyaccount {
     height: 22rem
+}
+
+.profile {
+    justify-content: center;
+}
+
+.userProfile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 1rem;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.foot {
+    background-color: #CCCCFF;
+    margin-top: auto;
 }

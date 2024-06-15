@@ -40,6 +40,7 @@ fetch("/api/sessions/", { method: "POST" })
         } else {
             document.querySelector("#formButton").style.display = "none"
             document.querySelector("#ordersButton").style.display = "none"
+            document.querySelector("#profileButton").style.display = "none"
             document.querySelector("#signout").style.display = "none"
         }
         if (res.response?.role === "user") {

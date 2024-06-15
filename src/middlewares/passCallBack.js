@@ -1,5 +1,5 @@
 import passport from "passport"
-import CustomError from "../utils/errors/customError.js"
+import CustomError from "../utils/errors/CustomError.js"
 import errors from "../utils/errors/errors.js"
 import winstonLogger from "../utils/logger/index.js"
 

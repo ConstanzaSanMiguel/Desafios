@@ -26,8 +26,8 @@ async function sendEmail(data) {
                     <div><img src='cid:vibelogo'/><h1>Vibe ~ <span>The place where you get the best music</span></h1></div>
                     <h2>Hello ${data.name.toUpperCase()}!</h2>
                     <h3>We are pleased to have you on board :) </h3>
-                    <h4>Here is your verification code: <strong>${data.verifiedCode}</strong></h5>
-                    <h4>Please verify your code in the following <a href="http://localhost:8080/auth/verify">link</a></h4>
+                    <h4>Here is your verification code: <strong>${data.verifiedCode}</strong></h4>
+                    <h4>Please verify your code in the following <a href="http://localhost:8080/verify">link</a></h4>
                 </body>
                 `,
         })

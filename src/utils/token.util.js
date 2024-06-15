@@ -14,7 +14,6 @@ function verifyToken(token) {
     
     if (stringifyToken) {
         const data = jwt.verify(token, process.env.SECRET)
-        //TAREA que pasa si no verifica
         return data
     }
     const error = new Error("bad auth token")

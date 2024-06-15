@@ -1,0 +1,32 @@
+<main class="contact">
+    <h1 class="mt-5 mb-2 text-center text-decoration-underline">Update Product</h1>
+    <form action="/products/update/{{product._id}}" method="POST">
+        <div class="container">
+            <fieldset class="mb-3 text-left">
+                <label for="title" class="form-label mb-0">Product</label><br>
+                <input type="text" class="form-control" id="title" name="title" value="{{product.title}}"
+                    placeholder="Please type 'Product - Band/Soloist'">
+            </fieldset>
+            <fieldset class="mb-3 text-left">
+                <label for="photo" class="form-label mb-0">Photo</label><br>
+                <input type="text" class="form-control" id="photo" name="photo" value="{{product.photo}}"
+                    placeholder="Image URL">
+            </fieldset>
+            <fieldset class="mb-3 text-left">
+                <label for="price" class="form-label mb-0">Price</label><br>
+                <input type="number" class="form-control" min="1" id="price" name="price" value="{{product.price}}"
+                    placeholder="Please enter the price">
+            </fieldset>
+            <fieldset class="mb-3 text-left">
+                <label for="stock" class="form-label mb-0">Stock</label><br>
+                <input type="number" class="form-control" min="1" id="stock" name="stock" value="{{product.stock}}"
+                    placeholder="Please type the product's stock">
+            </fieldset>
+            <div class="btn-group d-grid gap-2 col-6 mx-auto buttons" role="group" aria-label="Basic example">
+                <button type="submit" class="btn btn-primary btn-sm button">Update info</button>
+                <button type="reset" class="btn btn-primary btn-sm button">Clear</button>
+            </div>
+        </div>
+    </form>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>

@@ -1,4 +1,3 @@
-
 document.querySelector("#userLogin").addEventListener("click", async (event) => {
     try {
         const data = {
@@ -13,8 +12,6 @@ document.querySelector("#userLogin").addEventListener("click", async (event) => 
         }
         let response = await fetch("/api/sessions/login", options)
         response = await response.json()
-
-        console.log(response)
 
         if (response.statusCode === 200) {
             Swal.fire({

@@ -14,20 +14,21 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="/styles.css">
-    <link rel="shortcut icon" href="/public/vibefavicon.png" type="image/x-icon">
-    <script src="/public/scripts/signout.js"></script>
+    <link rel="shortcut icon" href="/vibefavicon.png" type="image/x-icon">
+    <script src="/scripts/signout.js"></script>
     <title>{{title}}</title>
 </head>
 
-<body>
+<body class="cont">
     <nav>
         <div class="navbar-nav menu">
             <a href="/"><img src="/vibelogo.png" id="vibelogo" alt="home vibe logo" class="hover logo"></a>
             <ul class="navbar">
                 <li><a href="/products/form" class="hover" id="formButton">form</a></li>
                 <li><a href="/orders" class="hover" id="ordersButton">orders</a></li>
-                <li><a href="/auth/register" class="hover" id="registerButton">register</a></li>
-                <li><a href="/auth/login" class="hover" id="loginButton">log in</a></li>
+                <li><a href="/register" class="hover" id="registerButton">register</a></li>
+                <li><a href="/profile" class="hover" id="profileButton">profile</a></li>
+                <li><a href="/login" class="hover" id="loginButton">log in</a></li>
                 <li>
                     <form action="/api/sessions/signout" method="post"><button type="submit" class="hover"
                             id="signout">sign out</button></form>
@@ -36,7 +37,7 @@
         </div>
     </nav>
     {{{ body }}}
-    <footer>
+    <footer class="foot">
         <ul class='footer'>
             <li class='footerLink'>privacy policy</li>
             <li class='footerLink'>terms & conditions</li>

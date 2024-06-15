@@ -17,9 +17,6 @@ document.querySelector("#newUser").addEventListener("click", async (event) => {
         }
         let response = await fetch("/api/sessions/register", options)
         response = await response.json()
-
-        console.log(response)
-
         if (response.statusCode === 200) {
             Swal.fire({
                 title: 'Success!',
@@ -27,7 +24,7 @@ document.querySelector("#newUser").addEventListener("click", async (event) => {
                 icon: 'success',
                 confirmButtonText: 'OK'
             }).then(() => {
-                location.replace("/auth/login")
+                location.replace("/login")
             })
         } else {
             Swal.fire({

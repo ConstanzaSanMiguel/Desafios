@@ -3,6 +3,7 @@ import UsersRouter from "./user.router.api.js"
 import ProductsRouter from "./products.router.api.js"
 import OrdersRouter from "./orders.router.api.js"
 import SessionsRouter from "./sessions.router.api.js"
+import TicketRouter from "./ticket.router.api.js"
 import passCallBack from "../../middlewares/passCallBack.js"
 
 import winstonLogger from "../../utils/logger/index.js"
@@ -13,6 +14,7 @@ const product = new ProductsRouter()
 const user = new UsersRouter()
 const order = new OrdersRouter()
 const session = new SessionsRouter()
+const ticketRouter = new TicketRouter()
 
 const environment = args.env
 function getLogFileName() {
@@ -25,6 +27,7 @@ export default class ApiRouter extends CustomRouter {
         this.router.use("/products", product.getRouter())
         this.router.use("/orders", passCallBack("jwt"), order.getRouter())
         this.router.use("/sessions", session.getRouter())
+        this.router.use("/payments", ticketRouter.getRouter())
         this.router.use("/loggers", (req, res, next) => {
             try {
                 const logFileName = getLogFileName()

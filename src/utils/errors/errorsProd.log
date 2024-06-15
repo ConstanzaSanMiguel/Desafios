@@ -1,41 +1,2727 @@
-[33mWARN[39m: GET /api/loggers - not found endpoint
-[33mWARN[39m: GET /favicon.ico - not found endpoint
-[33mWARN[39m: GET /favicon.ico - not found endpoint
-[33mWARN[39m: GET /public/scripts/signout.js - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /public/vibefavicon.png - not found endpoint
 [33mWARN[39m: Invalid credentials
 [33mWARN[39m: GET /public/scripts/signout.js - not found endpoint
 [33mWARN[39m: Invalid credentials
 [33mWARN[39m: GET /public/vibefavicon.png - not found endpoint
+[31mERROR[39m: this.service.recovery is not a function
+[31mERROR[39m: recoveryEmail is not defined
+[31mERROR[39m: ENOENT: no such file or directory, open 'C:\Users\Asus\Desktop\coder\backend\desafios\public\logoWeb.png'
 [33mWARN[39m: GET /public/scripts/signout.js - not found endpoint
+[33mWARN[39m: Invalid credentials
 [33mWARN[39m: GET /public/vibefavicon.png - not found endpoint
+[33mWARN[39m: GET /public/scripts/signout.js - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /public/vibefavicon.png - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Not Found
+[33mWARN[39m: POST /api/auth/password - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Forbidden
+[33mWARN[39m: Forbidden
+[33mWARN[39m: Forbidden
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Not Found
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: Failed to lookup view "reset-password" in views directory "C:\Users\Asus\Desktop\coder\backend\desafios/src/views"
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[33mWARN[39m: GET /reset-password - not found endpoint
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[33mWARN[39m: GET /sessions/reset-password - not found endpoint
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[31mERROR[39m: Failed to lookup view "reset-password" in views directory "C:\Users\Asus\Desktop\coder\backend\desafios/src/views"
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[33mWARN[39m: GET /auth/reset-password - not found endpoint
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: invalid token
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: POST /signout - not found endpoint
 [33mWARN[39m: POST /signout - not found endpoint
 [31mERROR[39m: Cannot read properties of undefined (reading 'success200')
-[33mWARN[39m: GET /public/scripts/signout.js - not found endpoint
 [33mWARN[39m: Invalid credentials
-[33mWARN[39m: GET /public/vibefavicon.png - not found endpoint
-[33mWARN[39m: GET /favicon.ico - not found endpoint
-[33mWARN[39m: GET /api/loggers - not found endpoint
-[33mWARN[39m: GET /favicon.ico - not found endpoint
-[33mWARN[39m: GET /public/scripts/signout.js - not found endpoint
-[33mWARN[39m: GET /public/scripts/signout.js - not found endpoint
 [33mWARN[39m: Invalid credentials
-[33mWARN[39m: GET /public/vibefavicon.png - not found endpoint
-[33mWARN[39m: GET /favicon.ico - not found endpoint
-[33mWARN[39m: GET /favicon.ico - not found endpoint
-[33mWARN[39m: GET /favicon.ico - not found endpoint
-[33mWARN[39m: GET /favicon.ico - not found endpoint
-[33mWARN[39m: GET /favicon.ico - not found endpoint
-[33mWARN[39m: GET /app/loggers - not found endpoint
-[33mWARN[39m: GET /favicon.ico - not found endpoint
-[33mWARN[39m: GET /favicon.ico - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET //auth/recovery?token=?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MTgxNDEwODAsImV4cCI6MTcxODc0NTg4MH0.k-nXFmmHKMyjx-4mwYgBmjEWJ9dLDopJ4qQjwMNU1Rw - not found endpoint
 [33mWARN[39m: GET /favicon.ico - not found endpoint
 [33mWARN[39m: Invalid credentials
-[31mERROR[39m: users validation failed: email: Path `email` is required.
-[31mERROR[39m: users validation failed: email: Path `email` is required.
-[31mERROR[39m: Cannot read properties of undefined (reading 'length')
-[31mERROR[39m: Cannot read properties of undefined (reading 'length')
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: invalid token
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: User has no orders
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Not Found
+[33mWARN[39m: bad auth token
+[33mWARN[39m: bad auth token
+[33mWARN[39m: Not Found
+[33mWARN[39m: POST /api/auth/recovery - not found endpoint
+[33mWARN[39m: POST /api/auth/password - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: POST /api/auth/password - not found endpoint
+[33mWARN[39m: Not Found
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Forbidden
+[33mWARN[39m: Not Found
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Not Found
+[33mWARN[39m: Forbidden
+[31mERROR[39m: orders validation failed: pid: Path `pid` is required.
+[31mERROR[39m: orders validation failed: pid: Path `pid` is required.
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /auth/class=%22card-img-top - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Forbidden
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: orders validation failed: pid: Path `pid` is required.
+[31mERROR[39m: orders validation failed: pid: Path `pid` is required.
+[31mERROR[39m: orders validation failed: pid: Path `pid` is required.
+[33mWARN[39m: Not Found
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Not Found
+[33mWARN[39m: Not Found
+[33mWARN[39m: Not Found
+[33mWARN[39m: Not Found
+[33mWARN[39m: Not Found
+[33mWARN[39m: Not Found
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Not Found
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Not Found
+[33mWARN[39m: GET /api/payments/checkout - not found endpoint
+[33mWARN[39m: Not Found
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Not Found
+[33mWARN[39m: GET /api/payments/checkout - not found endpoint
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /asd - not found endpoint
+[33mWARN[39m: GET /asd - not found endpoint
+[31mERROR[39m: Cast to ObjectId failed for value "asd" (type string) at path "_id" for model "products"
+[31mERROR[39m: errors is not defined
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[33mWARN[39m: GET /asd - not found endpoint
+[33mWARN[39m: Not Found
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[33mWARN[39m: GET /asd - not found endpoint
+[33mWARN[39m: Forbidden
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Forbidden
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Forbidden
+[33mWARN[39m: Forbidden
+[33mWARN[39m: Forbidden
+[33mWARN[39m: Forbidden
+[33mWARN[39m: Forbidden
+[33mWARN[39m: Forbidden
+[33mWARN[39m: Forbidden
+[33mWARN[39m: Forbidden
+[33mWARN[39m: Forbidden
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Forbidden
+[33mWARN[39m: Not Found
+[33mWARN[39m: Not Found
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Not Found
+[33mWARN[39m: Not Found
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: Cannot read properties of undefined (reading 'title')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: Cannot read properties of undefined (reading 'title')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /api/sessions/register - not found endpoint
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[33mWARN[39m: POST /api/auth/register - not found endpoint
+[33mWARN[39m: POST /api/auth/register - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: POST /api/auth/register - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
 [33mWARN[39m: Invalid credentials
 [33mWARN[39m: Invalid credentials
 [31mERROR[39m: Cannot read properties of undefined (reading 'success200')
 [33mWARN[39m: Invalid credentials
 [33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: repository is not defined
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: repository is not defined
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: repository is not defined
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: users validation failed: role: `ADMIN` is not a valid enum value for path `role`.
+[31mERROR[39m: Cannot read properties of null (reading 'password')
+[31mERROR[39m: users validation failed: role: `ADMIN` is not a valid enum value for path `role`.
+[31mERROR[39m: Cannot read properties of null (reading 'password')
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /reset-password - not found endpoint
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /auth/class=%22card-img-top - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: E11000 duplicate key error collection: vibe-kpop.products index: title_1 dup key: { title: "CD - BANDA" }
+[33mWARN[39m: GET /auth/class=%22card-img-top - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot set headers after they are sent to the client
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot set headers after they are sent to the client
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: POST /api/sessions/me - not found endpoint
+[33mWARN[39m: POST /api/sessions/me - not found endpoint
+[33mWARN[39m: POST /api/sessions/me - not found endpoint
+[33mWARN[39m: POST /api/sessions/me - not found endpoint
+[33mWARN[39m: POST /api/sessions/me - not found endpoint
+[33mWARN[39m: POST /api/sessions/me - not found endpoint
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: Cannot set headers after they are sent to the client
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Nothing found!
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /products/ - not found endpoint
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Nothing found!
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[31mERROR[39m: data must be a string or Buffer and hash must be a string
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Nothing found!
+[33mWARN[39m: Nothing found!
+[33mWARN[39m: GET /auth/class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /auth/class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /auth/class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /auth/class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /auth/profile - not found endpoint
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /auth/login - not found endpoint
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /auth/password - not found endpoint
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: if doesn't match else - 4:15
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[31mERROR[39m: if doesn't match else - 4:15
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[31mERROR[39m: each doesn't match if - 4:15
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[31mERROR[39m: moment is not defined
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /localhost:8080/ - not found endpoint
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: Cannot read properties of null (reading 'password')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: Parse error on line 20:
+...    </div></main>
+---------------------^
+Expecting 'OPEN_INVERSE_CHAIN', 'INVERSE', 'OPEN_ENDBLOCK', got 'EOF'
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[31mERROR[39m: Parse error on line 20:
+...    </div></main>
+---------------------^
+Expecting 'OPEN_INVERSE_CHAIN', 'INVERSE', 'OPEN_ENDBLOCK', got 'EOF'
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22card-img-top - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22%22 - not found endpoint
+[33mWARN[39m: GET /class=%22%22 - not found endpoint
+[33mWARN[39m: GET /class=%22%22 - not found endpoint
+[33mWARN[39m: GET /class=%22%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: User has no orders
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: User has no orders
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: stream is not readable
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: stream is not readable
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: E11000 duplicate key error collection: vibe-kpop.products index: title_1 dup key: { title: "Love&Letter - SEVENTEEN" }
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: E11000 duplicate key error collection: vibe-kpop.products index: title_1 dup key: { title: "DUAL - The Rose" }
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: orders validation failed: pid: Path `pid` is required.
+[33mWARN[39m: User has no orders
+[31mERROR[39m: orders validation failed: pid: Path `pid` is required.
+[33mWARN[39m: User has no orders
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: orders validation failed: pid: Path `pid` is required.
+[31mERROR[39m: orders validation failed: pid: Path `pid` is required.
+[31mERROR[39m: orders validation failed: pid: Path `pid` is required.
+[31mERROR[39m: orders validation failed: pid: Path `pid` is required.
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: Parse error on line 12:
+...   {{#if users.role === "user"}}      
+-----------------------^
+Expecting 'CLOSE_RAW_BLOCK', 'CLOSE', 'CLOSE_UNESCAPED', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'OPEN_BLOCK_PARAMS', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', 'SEP', got 'EQUALS'
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: User has no orders
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[31mERROR[39m: Missing helper: "eq"
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Forbidden
+[33mWARN[39m: Forbidden
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /product/update - not found endpoint
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[33mWARN[39m: GET /product/update - not found endpoint
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /product/update - not found endpoint
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[33mWARN[39m: GET /product/update - not found endpoint
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[33mWARN[39m: GET /product/update - not found endpoint
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[31mERROR[39m: Cast to ObjectId failed for value "update" (type string) at path "_id" for model "products"
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[31mERROR[39m: Cast to ObjectId failed for value "update" (type string) at path "_id" for model "products"
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /asd.com - not found endpoint
+[31mERROR[39m: Cast to ObjectId failed for value "asd.com" (type string) at path "_id" for model "products"
+[33mWARN[39m: Not Found
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[33mWARN[39m: GET /asf.com - not found endpoint
+[31mERROR[39m: Cast to ObjectId failed for value "asf.com" (type string) at path "_id" for model "products"
+[33mWARN[39m: Not Found
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[33mWARN[39m: GET /asd - not found endpoint
+[31mERROR[39m: Cast to ObjectId failed for value "asd" (type string) at path "_id" for model "products"
+[33mWARN[39m: Not Found
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[33mWARN[39m: GET /asd - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: Cast to ObjectId failed for value "update" (type string) at path "_id" for model "products"
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[31mERROR[39m: Parse error on line 12:
+...s user.role "admin" || equals user.role 
+-----------------------^
+Expecting 'CLOSE_RAW_BLOCK', 'CLOSE', 'CLOSE_UNESCAPED', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'OPEN_BLOCK_PARAMS', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'CLOSE_BLOCK_PARAMS'
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[31mERROR[39m: Cast to ObjectId failed for value "update" (type string) at path "_id" for model "products"
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[31mERROR[39m: Cast to ObjectId failed for value "update" (type string) at path "_id" for model "products"
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[31mERROR[39m: Cast to ObjectId failed for value "update" (type string) at path "_id" for model "products"
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /products/update/666e0d64cef526ecea6372e9 - not found endpoint
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[31mERROR[39m: Parse error on line 12:
+...ired placeholder="{{}}">            </
+-----------------------^
+Expecting 'ID', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'CLOSE'
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[31mERROR[39m: Parse error on line 12:
+...ired placeholder="{{}}">            </
+-----------------------^
+Expecting 'ID', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'CLOSE'
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[33mWARN[39m: PUT /api/products - not found endpoint
+[33mWARN[39m: PUT /api/products - not found endpoint
+[31mERROR[39m: Cast to ObjectId failed for value ":pid" (type string) at path "_id" for model "products"
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /products/update/666e0d64cef526ecea6372e9 - not found endpoint
+[33mWARN[39m: GET /favicon.ico - not found endpoint
+[33mWARN[39m: GET /scripts/update.js - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: User has no orders
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[33mWARN[39m: POST /signout - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: Cannot read properties of null (reading 'password')
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: User has no orders
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint
+[33mWARN[39m: GET /class=%22 - not found endpoint

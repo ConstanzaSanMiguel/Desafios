@@ -7,7 +7,7 @@ google.addEventListener("click", async () => {
         }
         let response = await fetch("/api/sessions/google", options)
         response = await response.json()
-        //console.log(response)
+
         if (response.session) {
             Swal.fire({
                 title: 'Success!',

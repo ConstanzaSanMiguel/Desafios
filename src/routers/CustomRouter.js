@@ -1,7 +1,7 @@
 import { Router } from "express"
 import jwt from "jsonwebtoken"
 import users from "../data/mongo/users.mongo.js"
-import CustomError from "../utils/errors/customError.js"
+import CustomError from "../utils/errors/CustomError.js"
 import errors from "../utils/errors/errors.js"
 
 export default class CustomRouter {

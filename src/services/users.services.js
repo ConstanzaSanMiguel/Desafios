@@ -1,5 +1,7 @@
 import repository from "../repositories/users.rep.js"
 import sendEmail from "../utils/sendEmail.utils.js"
+import recoveryEmail from "../utils/recovery.utils.js"
+import { createHash } from "../utils/hash.util.js"
 
 class UsersService {
     constructor() {
@@ -17,6 +19,18 @@ class UsersService {
         } catch (error) {
             throw error
         }
+    }
+    recovery = async (data, token) => {
+        try {
+            await recoveryEmail(data, token);
+        } catch (error) {
+            throw error
+        }
+    }
+
+    updatePassword = async (id, newPassword) => {
+        const hashedPassword = createHash(newPassword)
+        await this.repository.update(id, { password: hashedPassword })
     }
 }
 

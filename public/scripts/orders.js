@@ -9,7 +9,6 @@ selectors.forEach((each) =>
             }
             let response = await fetch(url, opts)
             response = await response.json()
-            console.log(response)
             if (response.statusCode === 200) {
                 Swal.fire({
                     title: 'Product deleted!',
@@ -20,7 +19,7 @@ selectors.forEach((each) =>
                     confirmButtonColor: "#7d5a7b",
                     confirmButtonText: 'OK'
                 }).then(() => {
-                    location.reload()
+                    location.replace("/")
                 })
             }
         } catch (error) {

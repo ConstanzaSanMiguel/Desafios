@@ -3,7 +3,7 @@ selector.addEventListener("click", async (product) => {
     try {
         const data = { product: product.target.id }
 
-        console.log("data:", data)
+        console.log("fetch prod: ", product)
 
         const options = {
             method: "POST",
@@ -13,7 +13,6 @@ selector.addEventListener("click", async (product) => {
 
         let response = await fetch("/api/orders", options)
         response = await response.json()
-        console.log(response)
         if (response.statusCode === 401) {
             Swal.fire({
                 title: "Please log in or register.",

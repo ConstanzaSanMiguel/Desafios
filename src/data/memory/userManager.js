@@ -1,6 +1,6 @@
 import crypto from "crypto"
 import notFoundOne from "../../utils/notFoundOne.js"
-import CustomError from "../../utils/errors/customError.js";
+import CustomError from "../../utils/errors/CustomError.js";
 import winstonLogger from "../../utils/logger/index.js";
 
 class UserManager {

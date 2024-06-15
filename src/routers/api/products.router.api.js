@@ -4,14 +4,14 @@ import { create, destroy, read, readOne, update } from "../../controllers/produc
 
 export default class ProductsRouter extends CustomRouter {
     init() {
-        this.create('/', ["ADMIN"], passCallBack("jwt"), create)
+        this.create('/', ["ADMIN", "PREM"], passCallBack("jwt"), create)
 
         this.read('/', ["PUBLIC"], read)
 
         this.read('/:pid', ["PUBLIC"], readOne)
 
-        this.update('/:pid', ["ADMIN"], update)
+        this.update('/:pid', ["ADMIN", "PREM"], update)
 
-        this.destroy('/:pid', ["ADMIN"], destroy)
+        this.destroy('/:pid', ["ADMIN", "PREM"], destroy)
     }
 }

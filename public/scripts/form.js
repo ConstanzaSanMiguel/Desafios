@@ -12,8 +12,6 @@ document.querySelector("#newProduct").addEventListener("click", async (event) =>
         stock: document.querySelector("#stock").value
     }
 
-    console.log(data)
-
     try {
         const options = {
             method: "POST",

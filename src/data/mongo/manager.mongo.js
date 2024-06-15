@@ -1,6 +1,6 @@
 import notFoundOne from "../../utils/notFoundOne.js"
 import { Types } from "mongoose"
-import CustomError from "../../utils/errors/customError.js"
+import CustomError from "../../utils/errors/CustomError.js"
 import errors from "../../utils/errors/errors.js"
 
 class MongoManager {

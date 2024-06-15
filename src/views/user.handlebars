@@ -1,0 +1,18 @@
+<main>
+    <div class="container text-center">
+        {{#each users}}
+        <div class=" p-4 d-flex align-items-stretch position-absolute">
+            <div class="d-flex profile">
+                <img src={{this.photo}} class=" img-fluid" style="height: 250px; width: auto;" alt={{this.name}}>
+                <div class="userProfile">
+                    <h5 class="card-title mb-4"> <u>User's profile</u></h5>
+                    <p class="card-text"><b>Username:</b> {{this.name}}</p>
+                    <p class="card-text"><b>Email:</b> {{this.email}}</p>
+                    <p class="card-text"><b>Role:</b> {{this.role}}</p>
+                    <p class="card-text"><b>User since:</b> {{formatDate this.createdAt}}</p>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</main>

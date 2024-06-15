@@ -22,7 +22,7 @@ document.querySelector("#verifyUser").addEventListener("click", async (event) =>
                 confirmButtonColor: "#7d5a7b",
                 confirmButtonText: 'OK'
             }).then(() => {
-                location.replace("/auth/login")
+                location.replace("/login")
             })
         } else {
             Swal.fire({

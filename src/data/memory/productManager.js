@@ -29,7 +29,7 @@ class ProductManager {
         }
     }
     async read({ filter, sortAndPaginate }) {
-        //no filtra ni pagina todavía
+        //no filtra ni pagina
         try {
             if (ProductManager.#products.length === 0) {
                 const error = new Error("Nothing found!")

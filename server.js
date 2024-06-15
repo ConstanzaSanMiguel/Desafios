@@ -11,6 +11,7 @@ import MongoStore from "connect-mongo"
 import cors from "cors"
 import socketUtils from "./src/utils/socket.utils.js"
 import compression from "express-compression"
+import moment from "moment"
 
 import router from "./src/routers/index.router.js"
 import errorHandler from "./src/middlewares/errorHandler.js"
@@ -33,7 +34,16 @@ httpServer.listen(PORT, ready)
 socketServer.on("connection", socketUtils)
 
 //views
-server.engine("handlebars", engine())
+server.engine('handlebars', engine({
+    helpers: {
+        formatDate: function(date) {
+            return moment(date).format('MMMM Do YYYY')
+        },
+        equals: function (a, b) {
+            return a === b
+        }
+    }
+}))
 server.set("view engine", "handlebars")
 server.set("views", __dirname + "/src/views")
 

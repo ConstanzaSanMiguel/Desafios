@@ -1,5 +1,5 @@
 import CustomRouter from "../CustomRouter.js"
-import { badauth, forbidden, googlecb, login, me, register, signout, verifyAccount } from "../../controllers/sessions.controllers.js"
+import { badauth, forbidden, googlecb, login, me, recovery, register, signout, verifyAccount, resetPassword } from "../../controllers/sessions.controllers.js"
 import has8char from "../../middlewares/has8char.mid.js"
 import passport from "../../middlewares/passport.mid.js"
 import passCallBack from "../../middlewares/passCallBack.js"
@@ -35,6 +35,10 @@ export default class SessionsRouter extends CustomRouter {
         this.create("/signout", ["USER", "PREM", "ADMIN"], signout)
 
         this.create("/verify", ["PUBLIC"], verifyAccount)
+
+        this.create("/password", ["PUBLIC"], recovery)
+
+        this.create("/recovery", ["PUBLIC"], resetPassword)
 
         this.read("/badauth", ["PUBLIC"], badauth)
 

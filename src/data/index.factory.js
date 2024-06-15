@@ -12,9 +12,7 @@ switch (environment) {
     case "test":
         winstonLogger.INFO("Memory connected")
         const { default: productsMemory } = await import("./memory/productManager.js")
-        const { default: usersMemory } = await import("./memory/userManager.js")
-        const { default: ordersMemory } = await import("./memory/orderManager.js")
-        dao = { products: productsMemory, users: usersMemory, orders: ordersMemory }
+        dao = { products: productsMemory }
         break
     case "dev":
         winstonLogger.INFO("FS connected")
