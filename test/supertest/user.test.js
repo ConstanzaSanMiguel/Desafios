@@ -5,7 +5,7 @@ import dao from "../../src/data/index.factory.js"
 
 const { users } = dao
 
-const requester = supertest("http://localhost:8080" /*+ process.env.PORT*/ + "/api")
+const requester = supertest("http://localhost:" + process.env.PORT + "/api")
 
 const model = users
 

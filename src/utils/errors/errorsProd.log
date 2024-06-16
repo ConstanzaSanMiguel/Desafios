@@ -65,7 +65,6 @@
 [33mWARN[39m: Invalid credentials
 [33mWARN[39m: Invalid credentials
 [33mWARN[39m: Invalid credentials
-[33mWARN[39m: GET //auth/recovery?token=?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MTgxNDEwODAsImV4cCI6MTcxODc0NTg4MH0.k-nXFmmHKMyjx-4mwYgBmjEWJ9dLDopJ4qQjwMNU1Rw - not found endpoint
 [33mWARN[39m: GET /favicon.ico - not found endpoint
 [33mWARN[39m: Invalid credentials
 [33mWARN[39m: Invalid credentials
@@ -1997,12 +1996,14 @@
 [33mWARN[39m: Invalid credentials
 [33mWARN[39m: Invalid credentials
 [31mERROR[39m: Parse error on line 20:
-...    </div></main>
+...    </div>
+</main>
 ---------------------^
 Expecting 'OPEN_INVERSE_CHAIN', 'INVERSE', 'OPEN_ENDBLOCK', got 'EOF'
 [33mWARN[39m: GET /favicon.ico - not found endpoint
 [31mERROR[39m: Parse error on line 20:
-...    </div></main>
+...    </div>
+</main>
 ---------------------^
 Expecting 'OPEN_INVERSE_CHAIN', 'INVERSE', 'OPEN_ENDBLOCK', got 'EOF'
 [33mWARN[39m: GET /favicon.ico - not found endpoint
@@ -2464,7 +2465,8 @@ Expecting 'OPEN_INVERSE_CHAIN', 'INVERSE', 'OPEN_ENDBLOCK', got 'EOF'
 [33mWARN[39m: Invalid credentials
 [33mWARN[39m: Invalid credentials
 [31mERROR[39m: Parse error on line 12:
-...   {{#if users.role === "user"}}      
+...   {{#if users.role === "user"}}
+      
 -----------------------^
 Expecting 'CLOSE_RAW_BLOCK', 'CLOSE', 'CLOSE_UNESCAPED', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'OPEN_BLOCK_PARAMS', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', 'SEP', got 'EQUALS'
 [33mWARN[39m: GET /favicon.ico - not found endpoint
@@ -2665,12 +2667,14 @@ Expecting 'CLOSE_RAW_BLOCK', 'CLOSE', 'CLOSE_UNESCAPED', 'OPEN_SEXPR', 'CLOSE_SE
 [33mWARN[39m: GET /products/update/666e0d64cef526ecea6372e9 - not found endpoint
 [33mWARN[39m: GET /favicon.ico - not found endpoint
 [31mERROR[39m: Parse error on line 12:
-...ired placeholder="{{}}">            </
+...ired placeholder="{{}}">
+            </
 -----------------------^
 Expecting 'ID', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'CLOSE'
 [33mWARN[39m: GET /favicon.ico - not found endpoint
 [31mERROR[39m: Parse error on line 12:
-...ired placeholder="{{}}">            </
+...ired placeholder="{{}}">
+            </
 -----------------------^
 Expecting 'ID', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'CLOSE'
 [33mWARN[39m: GET /favicon.ico - not found endpoint
@@ -2725,3 +2729,33 @@ Expecting 'ID', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 
 [33mWARN[39m: GET /class=%22 - not found endpoint
 [33mWARN[39m: GET /class=%22 - not found endpoint
 [33mWARN[39m: GET /class=%22 - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[33mWARN[39m: POST /8080/api/sessions/register - not found endpoint
+[33mWARN[39m: POST /8080/api/sessions/login - not found endpoint
+[33mWARN[39m: POST /8080/api/sessions/signout - not found endpoint
+[33mWARN[39m: DELETE /8080/api/users/undefined - not found endpoint
+[33mWARN[39m: POST /8080/api/sessions/register - not found endpoint
+[33mWARN[39m: POST /8080/api/sessions/login - not found endpoint
+[33mWARN[39m: POST /8080/api/sessions/signout - not found endpoint
+[33mWARN[39m: DELETE /8080/api/users/undefined - not found endpoint
+[33mWARN[39m: POST /8080/api/sessions/register - not found endpoint
+[33mWARN[39m: POST /8080/api/sessions/login - not found endpoint
+[33mWARN[39m: POST /8080/api/sessions/signout - not found endpoint
+[33mWARN[39m: DELETE /8080/api/users/undefined - not found endpoint
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
+[31mERROR[39m: Cannot read properties of undefined (reading 'success200')
+[33mWARN[39m: Invalid credentials
