@@ -74,11 +74,9 @@ export default class ViewsRouter extends CustomRouter {
         this.read("/profile", ["USER", "ADMIN", "PREM"], (req, res, next) => {
             try {
                 if (!req.user) {
-                    console.log("No user found")
                     return res.render('user', { users: [] })
                 }
                 const userData = req.user
-                console.log("user: ", userData)
                 return res.render('user', { users: userData, title: "VIBE - User profile" })
             } catch (error) {
                 next(error)

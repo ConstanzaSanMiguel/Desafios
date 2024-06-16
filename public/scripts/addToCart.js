@@ -2,9 +2,6 @@ const selector = document.querySelector(".addToCart")
 selector.addEventListener("click", async (product) => {
     try {
         const data = { product: product.target.id }
-
-        console.log("fetch prod: ", product)
-
         const options = {
             method: "POST",
             headers: { "Content-Type": "application/json" },

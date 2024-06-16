@@ -17,7 +17,7 @@ class TicketRep {
         productsOnCart = productsOnCart.map((each) => new TicketDTO(each))
         const line_items = productsOnCart
         const mode = "payment"
-        const success_url = "http://localhost:8080/thanks"
+        const success_url = `http://localhost:${{PORT}}/thanks`
         const intent = await stripe.checkout.sessions.create({
             line_items,
             mode,
